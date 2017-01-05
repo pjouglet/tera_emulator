@@ -1,0 +1,879 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Server">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Crypt">
+      <UniqueIdentifier>{4df474c3-8ed5-43d1-be2b-c36bf87880d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Services">
+      <UniqueIdentifier>{da4a6304-0f4f-4366-9d20-0fe3d6c7f71c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Geo">
+      <UniqueIdentifier>{e51abb32-09eb-4cc3-b4eb-4d7f0393558e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Server\Connection">
+      <UniqueIdentifier>{d48afd84-b9b8-4775-827a-0ed9dd91bc85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{92f08daa-d426-4f75-96bd-d5b765cf83b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\mysql">
+      <UniqueIdentifier>{c0025969-a7f8-4639-92ca-c532a00d742a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Enums">
+      <UniqueIdentifier>{4a93c2ab-8488-4d64-abc4-284f8daf72c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Utils">
+      <UniqueIdentifier>{410203da-9047-4d56-aa81-6eebbdfa423b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Resolutions">
+      <UniqueIdentifier>{f25221b7-cb9a-415c-94b1-1eeacd56b092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Resolutions\Init">
+      <UniqueIdentifier>{4a9041ff-3ee1-4f8b-9360-bce3b2acc8ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Systems">
+      <UniqueIdentifier>{299e494a-2424-412a-916d-8e7b9a0d4f89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\DataStructs">
+      <UniqueIdentifier>{c8918c59-fa83-4a61-9bc7-04e3111026e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Systems\WorldSystem">
+      <UniqueIdentifier>{f999da4b-a9f4-406e-9b53-19a76f1adcf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Systems\WorldSystem\SystemData">
+      <UniqueIdentifier>{4e6987f6-abca-4990-a4bc-49801fd0bedf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Passivity">
+      <UniqueIdentifier>{d7cd7b2b-9daf-4d88-8b6a-11208f1e55b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Abnormality">
+      <UniqueIdentifier>{65c2cf47-e9c1-4ba4-b410-eccbf706c256}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Systems\GuildSystem">
+      <UniqueIdentifier>{33c4c97b-482c-448b-b4aa-12863d7d1038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Systems\ChatSystem">
+      <UniqueIdentifier>{99fbceb4-217e-464e-adff-aaa483d328b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Resolutions\Lobby">
+      <UniqueIdentifier>{018c103b-4a44-4aed-8900-1a4b7a547d49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Resolutions\World">
+      <UniqueIdentifier>{8962243b-3566-45a6-a33d-9a73347377bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Resolutions\Event">
+      <UniqueIdentifier>{0f8ca8ad-fdc1-4021-adc0-33781a1a44a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Resolutions\Guild">
+      <UniqueIdentifier>{d63258b0-d9a5-48e9-94aa-b80d371d3f6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Resolutions\Settings">
+      <UniqueIdentifier>{815e56b5-185b-4513-a9e1-8b0aeb30a8f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Resolutions\Inventory">
+      <UniqueIdentifier>{114e94e9-1327-4129-bdb4-31f9077c01b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Resolutions\Tradebroker">
+      <UniqueIdentifier>{b2b0243c-5695-4122-bbb6-cb38f5bd4656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Resolutions\Skill">
+      <UniqueIdentifier>{2902063d-7f2b-454f-9e7b-1913f8c361a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Systems\BroadcastSystem">
+      <UniqueIdentifier>{50f5b3fa-2805-439e-a61a-59ea11b274c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Resolutions\Chat">
+      <UniqueIdentifier>{3515429b-9e13-4e9e-a568-6170812aed0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Systems\SkillSystem">
+      <UniqueIdentifier>{d1daee91-e7e1-43d2-9708-f9cdb25d0edf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Systems\SkillSystem\Data">
+      <UniqueIdentifier>{bb871d5c-e266-445c-a78a-043902f3af5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Services\Inventory">
+      <UniqueIdentifier>{0c6ddfc5-f95c-4347-b9d3-361a7bb2237f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Systems\Resources">
+      <UniqueIdentifier>{4cd7590d-6def-4e83-b34e-d3d596a930f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Services\StatsService">
+      <UniqueIdentifier>{244ff59e-3d63-42fc-8562-bcab44362e47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Services\StatsService\Stats">
+      <UniqueIdentifier>{c688f32c-902d-47b9-9693-c85e2cecd19a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Systems\CombatSystem">
+      <UniqueIdentifier>{17890d05-259b-4a73-a65e-11d1d21b5e75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Resolutions\Dungeon">
+      <UniqueIdentifier>{5cb53fbb-5775-4d58-abc8-cb6d227737d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Systems\BroadcastSystem\Data">
+      <UniqueIdentifier>{479db900-f94e-4bcb-8ebb-1a5280dfb71d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypt\Cryptor.cpp">
+      <Filter>Crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypt\CryptorKey.cpp">
+      <Filter>Crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypt\Session.cpp">
+      <Filter>Crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypt\Sha.cpp">
+      <Filter>Crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypt\utils.cpp">
+      <Filter>Crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerService.cpp">
+      <Filter>Server\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="Account.cpp">
+      <Filter>Server\DataStructs</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Server\DataStructs</Filter>
+    </ClCompile>
+    <ClCompile Include="OpCodes.cpp">
+      <Filter>Server\Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="TeraPacket.cpp">
+      <Filter>Server\Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Server\Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="Listener.cpp">
+      <Filter>Server\Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="Stream.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="mysql\MySqlDriver.cpp">
+      <Filter>Framework\mysql</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerUtils.cpp">
+      <Filter>Server\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldPosition.cpp">
+      <Filter>Server\Geo</Filter>
+    </ClCompile>
+    <ClCompile Include="RCanCreatePlayer.cpp">
+      <Filter>Server\Resolutions\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="RCreatePlayer.cpp">
+      <Filter>Server\Resolutions\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="RStrEvaluateList.cpp">
+      <Filter>Server\Resolutions\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="RCheckUsername.cpp">
+      <Filter>Server\Resolutions\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="RReqVipSystemInfo.cpp">
+      <Filter>Server\Resolutions\Init</Filter>
+    </ClCompile>
+    <ClCompile Include="RHardwareInfo.cpp">
+      <Filter>Server\Resolutions\Init</Filter>
+    </ClCompile>
+    <ClCompile Include="SLoginArbiter.cpp">
+      <Filter>Server\Resolutions\Init</Filter>
+    </ClCompile>
+    <ClCompile Include="SSetVisibleRange.cpp">
+      <Filter>Server\Resolutions\Init</Filter>
+    </ClCompile>
+    <ClCompile Include="SCheckVersion.cpp">
+      <Filter>Server\Resolutions\Init</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillService.cpp">
+      <Filter>Server\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerTimer.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="IAbnormality.cpp">
+      <Filter>Server\Abnormality</Filter>
+    </ClCompile>
+    <ClCompile Include="AbnormalitiesService.cpp">
+      <Filter>Server\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectService.cpp">
+      <Filter>Server\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldSystem.cpp">
+      <Filter>Server\Systems\WorldSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Area.cpp">
+      <Filter>Server\Systems\WorldSystem\SystemData</Filter>
+    </ClCompile>
+    <ClCompile Include="Creature.cpp">
+      <Filter>Server\Systems\WorldSystem\SystemData</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldObject.cpp">
+      <Filter>Server\Systems\WorldSystem\SystemData</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Server\DataStructs</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityService.cpp">
+      <Filter>Server\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="2DRectangle.cpp">
+      <Filter>Server\DataStructs</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Server\Systems\WorldSystem\SystemData</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectZone.cpp">
+      <Filter>Server\Systems\WorldSystem\SystemData</Filter>
+    </ClCompile>
+    <ClCompile Include="HuntingZone.cpp">
+      <Filter>Server\Systems\WorldSystem\SystemData</Filter>
+    </ClCompile>
+    <ClCompile Include="FileStream.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Passivity.cpp">
+      <Filter>Server\Passivity</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoService.cpp">
+      <Filter>Server\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelingService.cpp">
+      <Filter>Server\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="GuildSystem.cpp">
+      <Filter>Server\Systems\GuildSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatSystem.cpp">
+      <Filter>Server\Systems\ChatSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="mysql\SQLStream.cpp">
+      <Filter>Framework\mysql</Filter>
+    </ClCompile>
+    <ClCompile Include="RDeletePlayer.cpp">
+      <Filter>Server\Resolutions\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="FriendSystem.cpp">
+      <Filter>Server\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="UnionSystem.cpp">
+      <Filter>Server\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="RCancelDeletePlayer.cpp">
+      <Filter>Server\Resolutions\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="RChangeUserLobbySlotId.cpp">
+      <Filter>Server\Resolutions\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="RSelectPlayer.cpp">
+      <Filter>Server\Resolutions\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="RMovePlayer.cpp">
+      <Filter>Server\Resolutions\World</Filter>
+    </ClCompile>
+    <ClCompile Include="RNpcGuildList.cpp">
+      <Filter>Server\Resolutions\World</Filter>
+    </ClCompile>
+    <ClCompile Include="RRaignInfo.cpp">
+      <Filter>Server\Resolutions\World</Filter>
+    </ClCompile>
+    <ClCompile Include="RGuardPkPolicy.cpp">
+      <Filter>Server\Resolutions\World</Filter>
+    </ClCompile>
+    <ClCompile Include="RVisitNewSection.cpp">
+      <Filter>Server\Resolutions\World</Filter>
+    </ClCompile>
+    <ClCompile Include="RDungeonClearCountList.cpp">
+      <Filter>Server\Resolutions\Dungeon</Filter>
+    </ClCompile>
+    <ClCompile Include="RDungeonCoolTImeList.cpp">
+      <Filter>Server\Resolutions\Dungeon</Filter>
+    </ClCompile>
+    <ClCompile Include="REventGuide.cpp">
+      <Filter>Server\Resolutions\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="RUnionSummary.cpp">
+      <Filter>Server\Resolutions\Init</Filter>
+    </ClCompile>
+    <ClCompile Include="RGetPlayerGuildLogo.cpp">
+      <Filter>Server\Resolutions\Guild</Filter>
+    </ClCompile>
+    <ClCompile Include="RRequestInstoreProductList.cpp">
+      <Filter>Server\Resolutions\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="RSavePlayerAccountSettings.cpp">
+      <Filter>Server\Resolutions\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="RSaveUserSettings.cpp">
+      <Filter>Server\Resolutions\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="RServerTime.cpp">
+      <Filter>Server\Resolutions\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="RSimpleTipRepeatCheck.cpp">
+      <Filter>Server\Resolutions\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="RUpdateContentsPlayTime.cpp">
+      <Filter>Server\Resolutions\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="RShowInven.cpp">
+      <Filter>Server\Resolutions\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="RTradeBrokerHighestItemLevel.cpp">
+      <Filter>Server\Resolutions\Tradebroker</Filter>
+    </ClCompile>
+    <ClCompile Include="CraftingSystem.cpp">
+      <Filter>Server\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="RGetPlayerList.cpp">
+      <Filter>Server\Resolutions\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="RSkillLearnRequest.cpp">
+      <Filter>Server\Resolutions\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="RSkillLearnList.cpp">
+      <Filter>Server\Resolutions\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill.cpp">
+      <Filter>Server\Systems\SkillSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RCancelSkill.cpp">
+      <Filter>Server\Resolutions\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="RNotifyLocationInAction.cpp">
+      <Filter>Server\Resolutions\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="RStartSkill.cpp">
+      <Filter>Server\Resolutions\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="RRequestGameStatPing.cpp">
+      <Filter>Server\Resolutions\World</Filter>
+    </ClCompile>
+    <ClCompile Include="SendPacket.cpp">
+      <Filter>Server\DataStructs</Filter>
+    </ClCompile>
+    <ClCompile Include="RLoadTopoFin.cpp">
+      <Filter>Server\Resolutions\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="RExit.cpp">
+      <Filter>Server\Resolutions</Filter>
+    </ClCompile>
+    <ClCompile Include="RChat.cpp">
+      <Filter>Server\Resolutions\Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="RReturnToLobby.cpp">
+      <Filter>Server\Resolutions\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillStructs.cpp">
+      <Filter>Server\Systems\SkillSystem\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileStructs.cpp">
+      <Filter>Server\Systems\SkillSystem\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileSkill.cpp">
+      <Filter>Server\Systems\SkillSystem\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="AreaEffect.cpp">
+      <Filter>Server\Systems\SkillSystem\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="AbnormalityEffect.cpp">
+      <Filter>Server\Abnormality</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStructs.cpp">
+      <Filter>Server\DataStructs</Filter>
+    </ClCompile>
+    <ClCompile Include="XMLDocumentParser.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="PassivityService.cpp">
+      <Filter>Server\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="InventorySlot.cpp">
+      <Filter>Server\Services\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Server\Services\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="InventoryService.cpp">
+      <Filter>Server\Services\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="IItem.cpp">
+      <Filter>Server\Services\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="MessagingSystem.cpp">
+      <Filter>Server\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="PassivitySystem.cpp">
+      <Filter>Server\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="RShowItemToolTipEx.cpp">
+      <Filter>Server\Resolutions\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="RDelItem.cpp">
+      <Filter>Server\Resolutions\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="RMoveItemPos.cpp">
+      <Filter>Server\Resolutions\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="MobStats.cpp">
+      <Filter>Server\Services\StatsService\Stats</Filter>
+    </ClCompile>
+    <ClCompile Include="CreatureStats.cpp">
+      <Filter>Server\Services\StatsService\Stats</Filter>
+    </ClCompile>
+    <ClCompile Include="StatsService.cpp">
+      <Filter>Server\Services\StatsService</Filter>
+    </ClCompile>
+    <ClCompile Include="CreatureBase.cpp">
+      <Filter>Server\Systems\WorldSystem\SystemData</Filter>
+    </ClCompile>
+    <ClCompile Include="CombatManager.cpp">
+      <Filter>Server\Systems\CombatSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="REquipItem.cpp">
+      <Filter>Server\Resolutions\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectEngine.cpp">
+      <Filter>Server\Systems\CombatSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipmentSet.cpp">
+      <Filter>Server\Services\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="RRequestUserItemLevelInfo.cpp">
+      <Filter>Server\Resolutions\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="RInventoryAutoSort.cpp">
+      <Filter>Server\Resolutions\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="RUnequipItem.cpp">
+      <Filter>Server\Resolutions\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="RRequestContract.cpp">
+      <Filter>Server\Resolutions</Filter>
+    </ClCompile>
+    <ClCompile Include="BroadcastService.cpp">
+      <Filter>Server\Systems\BroadcastSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ToSendPacket.cpp">
+      <Filter>Server\Systems\BroadcastSystem\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="RTryLootDropItem.cpp">
+      <Filter>Server\Resolutions\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Drop.cpp">
+      <Filter>Server\Systems\WorldSystem\SystemData</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Crypt\TeraCrypt.hpp">
+      <Filter>Crypt</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypt\utils.hpp">
+      <Filter>Crypt</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerService.h">
+      <Filter>Server\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.hpp">
+      <Filter>Server\DataStructs</Filter>
+    </ClInclude>
+    <ClInclude Include="Account.hpp">
+      <Filter>Server\DataStructs</Filter>
+    </ClInclude>
+    <ClInclude Include="OpCodes.hpp">
+      <Filter>Server\Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="TeraPacket.hpp">
+      <Filter>Server\Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.hpp">
+      <Filter>Server\Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="Listener.hpp">
+      <Filter>Server\Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="Stream.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\MySqlDriver.h">
+      <Filter>Framework\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerUtils.hpp">
+      <Filter>Server\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.hpp">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldPosition.h">
+      <Filter>Server\Geo</Filter>
+    </ClInclude>
+    <ClInclude Include="Climb.h">
+      <Filter>Server\Geo</Filter>
+    </ClInclude>
+    <ClInclude Include="RCanCreatePlayer.h">
+      <Filter>Server\Resolutions\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="RCreatePlayer.h">
+      <Filter>Server\Resolutions\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="RStrEvaluateList.h">
+      <Filter>Server\Resolutions\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="RCheckUsername.h">
+      <Filter>Server\Resolutions\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="RReqVipSystemInfo.h">
+      <Filter>Server\Resolutions\Init</Filter>
+    </ClInclude>
+    <ClInclude Include="RHardwareInfo.h">
+      <Filter>Server\Resolutions\Init</Filter>
+    </ClInclude>
+    <ClInclude Include="SLoginArbiter.h">
+      <Filter>Server\Resolutions\Init</Filter>
+    </ClInclude>
+    <ClInclude Include="SSetVisibleRange.h">
+      <Filter>Server\Resolutions\Init</Filter>
+    </ClInclude>
+    <ClInclude Include="SCheckVersion.h">
+      <Filter>Server\Resolutions\Init</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillService.h">
+      <Filter>Server\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerTimer.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="IAbnormality.h">
+      <Filter>Server\Abnormality</Filter>
+    </ClInclude>
+    <ClInclude Include="AbnormalitiesService.h">
+      <Filter>Server\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectService.h">
+      <Filter>Server\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemEnum.h">
+      <Filter>Server\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypt\data_type.hpp">
+      <Filter>Crypt</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldSystem.h">
+      <Filter>Server\Systems\WorldSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Area.h">
+      <Filter>Server\Systems\WorldSystem\SystemData</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature.h">
+      <Filter>Server\Systems\WorldSystem\SystemData</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldObject.h">
+      <Filter>Server\Systems\WorldSystem\SystemData</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Server\DataStructs</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityService.h">
+      <Filter>Server\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="2DRectangle.h">
+      <Filter>Server\DataStructs</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Server\Systems\WorldSystem\SystemData</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectZone.h">
+      <Filter>Server\Systems\WorldSystem\SystemData</Filter>
+    </ClInclude>
+    <ClInclude Include="HuntingZone.h">
+      <Filter>Server\Systems\WorldSystem\SystemData</Filter>
+    </ClInclude>
+    <ClInclude Include="FileStream.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Passivity.h">
+      <Filter>Server\Passivity</Filter>
+    </ClInclude>
+    <ClInclude Include="CreatureEnum.h">
+      <Filter>Server\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoService.h">
+      <Filter>Server\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelingService.h">
+      <Filter>Server\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="GuildSystem.h">
+      <Filter>Server\Systems\GuildSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatSystem.h">
+      <Filter>Server\Systems\ChatSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql\SQLStream.h">
+      <Filter>Framework\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="RDeletePlayer.h">
+      <Filter>Server\Resolutions\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="FriendSystem.h">
+      <Filter>Server\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="UnionSystem.h">
+      <Filter>Server\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="OpCodesEnum.h">
+      <Filter>Server\Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="RCancelDeletePlayer.h">
+      <Filter>Server\Resolutions\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="RChangeUserLobbySlotId.h">
+      <Filter>Server\Resolutions\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="RSelectPlayer.h">
+      <Filter>Server\Resolutions\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="RMovePlayer.h">
+      <Filter>Server\Resolutions\World</Filter>
+    </ClInclude>
+    <ClInclude Include="RNpcGuildList.h">
+      <Filter>Server\Resolutions\World</Filter>
+    </ClInclude>
+    <ClInclude Include="RRaignInfo.h">
+      <Filter>Server\Resolutions\World</Filter>
+    </ClInclude>
+    <ClInclude Include="RGuardPkPolicy.h">
+      <Filter>Server\Resolutions\World</Filter>
+    </ClInclude>
+    <ClInclude Include="RVisitNewSection.h">
+      <Filter>Server\Resolutions\World</Filter>
+    </ClInclude>
+    <ClInclude Include="RDungeonClearCountList.h">
+      <Filter>Server\Resolutions\Dungeon</Filter>
+    </ClInclude>
+    <ClInclude Include="RDungeonCoolTImeList.h">
+      <Filter>Server\Resolutions\Dungeon</Filter>
+    </ClInclude>
+    <ClInclude Include="REventGuide.h">
+      <Filter>Server\Resolutions\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="RUnionSummary.h">
+      <Filter>Server\Resolutions\Init</Filter>
+    </ClInclude>
+    <ClInclude Include="RGetPlayerGuildLogo.h">
+      <Filter>Server\Resolutions\Guild</Filter>
+    </ClInclude>
+    <ClInclude Include="RRequestInstoreProductList.h">
+      <Filter>Server\Resolutions\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="RSavePlayerAccountSettings.h">
+      <Filter>Server\Resolutions\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="RSaveUserSettings.h">
+      <Filter>Server\Resolutions\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="RServerTime.h">
+      <Filter>Server\Resolutions\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="RSimpleTipRepeatCheck.h">
+      <Filter>Server\Resolutions\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="RUpdateContentsPlayTime.h">
+      <Filter>Server\Resolutions\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="RShowInven.h">
+      <Filter>Server\Resolutions\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="RTradeBrokerHighestItemLevel.h">
+      <Filter>Server\Resolutions\Tradebroker</Filter>
+    </ClInclude>
+    <ClInclude Include="SendPacket.h">
+      <Filter>Server\DataStructs</Filter>
+    </ClInclude>
+    <ClInclude Include="CraftingSystem.h">
+      <Filter>Server\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="RGetPlayerList.h">
+      <Filter>Server\Resolutions\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="RSkillLearnRequest.h">
+      <Filter>Server\Resolutions\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="RSkillLearnList.h">
+      <Filter>Server\Resolutions\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.h">
+      <Filter>Server\Systems\SkillSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RCancelSkill.h">
+      <Filter>Server\Resolutions\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="RNotifyLocationInAction.h">
+      <Filter>Server\Resolutions\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="RStartSkill.h">
+      <Filter>Server\Resolutions\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="RRequestGameStatPing.h">
+      <Filter>Server\Resolutions\World</Filter>
+    </ClInclude>
+    <ClInclude Include="RLoadTopoFin.h">
+      <Filter>Server\Resolutions\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="RExit.h">
+      <Filter>Server\Resolutions</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Server\Systems\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatEnum.h">
+      <Filter>Server\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="RChat.h">
+      <Filter>Server\Resolutions\Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="RReturnToLobby.h">
+      <Filter>Server\Resolutions\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillStructs.h">
+      <Filter>Server\Systems\SkillSystem\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileStructs.h">
+      <Filter>Server\Systems\SkillSystem\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileSkill.h">
+      <Filter>Server\Systems\SkillSystem\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="AreaEffect.h">
+      <Filter>Server\Systems\SkillSystem\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="AbnormalityEnums.h">
+      <Filter>Server\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="AbnormalityEffect.h">
+      <Filter>Server\Abnormality</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEnums.h">
+      <Filter>Server\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStructs.h">
+      <Filter>Server\DataStructs</Filter>
+    </ClInclude>
+    <ClInclude Include="XMLDocumentParser.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerEnums.h">
+      <Filter>Server\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="PassivityService.h">
+      <Filter>Server\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="InventorySlot.h">
+      <Filter>Server\Services\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Server\Services\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="InventoryService.h">
+      <Filter>Server\Services\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="IItem.h">
+      <Filter>Server\Services\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.hpp">
+      <Filter>Server\Geo</Filter>
+    </ClInclude>
+    <ClInclude Include="MessagingSystem.h">
+      <Filter>Server\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="PassivitySystem.h">
+      <Filter>Server\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="RShowItemToolTipEx.h">
+      <Filter>Server\Resolutions\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="RMoveItemPos.h">
+      <Filter>Server\Resolutions\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="RDelItem.h">
+      <Filter>Server\Resolutions\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="MobStats.h">
+      <Filter>Server\Services\StatsService\Stats</Filter>
+    </ClInclude>
+    <ClInclude Include="CreatureStats.h">
+      <Filter>Server\Services\StatsService\Stats</Filter>
+    </ClInclude>
+    <ClInclude Include="StatsService.h">
+      <Filter>Server\Services\StatsService</Filter>
+    </ClInclude>
+    <ClInclude Include="CreatureBase.h">
+      <Filter>Server\Systems\WorldSystem\SystemData</Filter>
+    </ClInclude>
+    <ClInclude Include="CombatManager.h">
+      <Filter>Server\Systems\CombatSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="REquipItem.h">
+      <Filter>Server\Resolutions\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectEngine.h">
+      <Filter>Server\Systems\CombatSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipmentSet.h">
+      <Filter>Server\Services\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="RRequestUserItemLevelInfo.h">
+      <Filter>Server\Resolutions\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="RInventoryAutoSort.h">
+      <Filter>Server\Resolutions\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="RUnequipItem.h">
+      <Filter>Server\Resolutions\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="RRequestContract.h">
+      <Filter>Server\Resolutions</Filter>
+    </ClInclude>
+    <ClInclude Include="BroadcastService.h">
+      <Filter>Server\Systems\BroadcastSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ToSendPacket.h">
+      <Filter>Server\Systems\BroadcastSystem\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="RTryLootDropItem.h">
+      <Filter>Server\Resolutions\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Drop.h">
+      <Filter>Server\Systems\WorldSystem\SystemData</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TERA_C++_EMULATOR_11.rc">
+      <Filter>Server\Systems\Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\..\Desktop\icon.ico">
+      <Filter>Server\Systems\Resources</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

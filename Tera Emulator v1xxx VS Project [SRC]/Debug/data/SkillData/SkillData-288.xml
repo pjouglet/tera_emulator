@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SkillData huntingZoneId="376">
+  <Skill id="6029" name="컨디션 회복" type="notimeline" category="0" templateId="1101" nextSkill="0" timeRate="1.1" attackRange="100.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="Human_M_ANI.Anim.Human_M_Class01_Anim" totalAtk="0.000000">
+    <Property />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <TargetingList>
+      <Targeting id="-1" time="0" method="normal" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="ally" maxHeight="0.0" maxCount="1" maxRadius="500.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="0.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.0">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="1.5" miniRate="0.0" />
+            <HitEffect type="onlyDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="6030" name="컨디션 회복(이속상승추가)" type="notimeline" category="0" templateId="1102" nextSkill="0" timeRate="1.1" attackRange="100.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="Human_M_ANI.Anim.Human_M_Class01_Anim" totalAtk="0.000000">
+    <Property />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <TargetingList>
+      <Targeting id="-1" time="0" method="normal" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="ally" maxHeight="0.0" maxCount="1" maxRadius="500.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="0.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.0" abnormalityRate="0.0">
+              <AbnormalityOnCommon id="1480" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="1.5" miniRate="0.0" />
+            <HitEffect type="nothing" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="6031" name="HP 회복(이속상승추가)" type="notimeline" category="0" templateId="1102" nextSkill="0" timeRate="1.1" attackRange="100.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="Human_M_ANI.Anim.Human_M_Class01_Anim" totalAtk="0.000000">
+    <Property />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <TargetingList>
+      <Targeting id="-1" time="0" method="normal" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="ally" maxHeight="0.0" maxCount="1" maxRadius="500.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="0.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.0">
+              <AbnormalityOnCommon id="1480" />
+              <HpDiff value="99999999" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="1.5" miniRate="0.0" />
+            <HitEffect type="nothing" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="6032" name="MP 회복(이속상승추가)" type="notimeline" category="0" templateId="1102" nextSkill="0" timeRate="1.1" attackRange="100.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="Human_M_ANI.Anim.Human_M_Class01_Anim" totalAtk="0.000000">
+    <Property />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <TargetingList>
+      <Targeting id="-1" time="0" method="normal" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="ally" maxHeight="0.0" maxCount="1" maxRadius="500.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="0.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.0">
+              <AbnormalityOnCommon id="1480" />
+              <HpDiff value="0" />
+              <MpDiff value="99999999" />
+            </Effect>
+            <Reaction basicRate="1.5" miniRate="0.0" />
+            <HitEffect type="nothing" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="6033" name="HP, MP 회복(이속상승추가)" type="notimeline" category="0" templateId="1102" nextSkill="0" timeRate="1.1" attackRange="100.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="Human_M_ANI.Anim.Human_M_Class01_Anim" totalAtk="0.000000">
+    <Property />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <TargetingList>
+      <Targeting id="-1" time="0" method="normal" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="ally" maxHeight="0.0" maxCount="1" maxRadius="500.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="0.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.0">
+              <AbnormalityOnCommon id="1480" />
+              <HpDiff value="99999999" />
+              <MpDiff value="99999999" />
+            </Effect>
+            <Reaction basicRate="1.5" miniRate="0.0" />
+            <HitEffect type="nothing" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="6034" name="HP, MP, 컨디션 모두 회복(이속상승추가)" type="notimeline" category="0" templateId="1102" nextSkill="0" timeRate="1.1" attackRange="100.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="Human_M_ANI.Anim.Human_M_Class01_Anim" totalAtk="0.000000">
+    <Property />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <TargetingList>
+      <Targeting id="-1" time="0" method="normal" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="ally" maxHeight="0.0" maxCount="1" maxRadius="500.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="0.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.0">
+              <AbnormalityOnCommon id="1480" />
+              <HpDiff value="99999999" />
+              <MpDiff value="99999999" />
+            </Effect>
+            <Reaction basicRate="1.5" miniRate="0.0" />
+            <HitEffect type="nothing" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+</SkillData>

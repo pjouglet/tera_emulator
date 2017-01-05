@@ -1,0 +1,3955 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SkillData huntingZoneId="0">
+  <Skill id="15300048" name="[이벤트]백은기사 방어구 상자(3일)" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600000" name="아케이드 블록 무기 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600001" name="아케이드 블록 무기 상자(30일)" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600002" name="동물의상: 양(화이트) 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600003" name="동물의상: 양(화이트) 상자(30일)" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600004" name="앨리스 의상 박스" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600005" name="검은 파도 해적단 의복 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600006" name="설빔: 수 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600007" name="설빔: 미 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600008" name="설빔: 려 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600009" name="바니걸 이벤트 의상 L 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600010" name="화려한 귀빈 의상 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600011" name="핑크 플라밍고 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600012" name="비단 설빔: 수 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600013" name="비단 설빔: 미 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600014" name="비단 설빔: 려 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600015" name="극의의 무도복 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600016" name="찬란한 대천사 무기 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600017" name="아케이드 레인보우 무기 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600018" name="동물의상 : 돼지 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600019" name="동물의상 : 오리 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600020" name="동물의상 : 검은양 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600021" name="동물의상 : 강아지 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600022" name="동물의상 : 펭귄 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600023" name="동물의상 : 핑크곰 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600024" name="동물의상 : 무지개곰 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600025" name="동물의상 : 무지개양 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600026" name="미니스커트 치어리더복 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600027" name="유니크: 미니스커트 치어리더복 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600028" name="숏팬츠 치어리더복 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600029" name="유니크: 숏팬츠 치어리더복 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600030" name="트레이닝 라인 팬츠 B 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600031" name="트레이닝 라인 팬츠 R 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600032" name="[EVT]KUSO장난감 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600033" name="[EVT]동물의상: 양(화이트) 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600034" name="아케이드 크리스탈 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600035" name="아케이드 프리즘 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600036" name="냉기서린 은빛용 무기 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600037" name="레전드 화이트 상자[휴먼남]" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600038" name="몰디브 상자[휴먼여]" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600039" name="오션 상자[하엘남]" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600040" name="판타스틱 상자[하엘여]" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600041" name="라이징 상자[아만남]" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600042" name="롤링스타 상자[아만여]" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600043" name="레이브 상자[케스남]" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600044" name="시크릿 상자[케스여]" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600045" name="호라이즌 상자[포포리]" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600046" name="퓨어엔젤 상자[엘린]" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600047" name="발리비치[바라카]" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600048" name="2012 수영복 상자[휴먼남]" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600049" name="2012 수영복 상자[휴먼여]" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600050" name="2012 수영복 상자[하엘남]" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600051" name="2012 수영복 상자[하엘여]" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600052" name="2012 수영복 상자[아만남]" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600053" name="2012 수영복 상자[아만여]" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600054" name="2012 수영복 상자[케스남]" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600055" name="2012 수영복 상자[케스여]" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600056" name="2012 수영복 상자[포포리]" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600057" name="2012 수영복 상자[엘린]" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600058" name="2012 수영복 상자[바라카]" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600059" name="[이벤트]냉기서린 은빛용 방어구 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600060" name="녹테늄 강화탄 상자(T-cat상점용)" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600061" name="[이벤트] 황금투사의 방어구 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600062" name="[이벤트] 불타는 황금용 무기 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600063" name="[이벤트] 섬광 그림자 의복 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600064" name="[이벤트] 섬광 그림자 무기 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600065" name="[이벤트] 월광 그림자 무기 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600066" name="[이벤트] 유니크: 개척자의 건틀릿 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600067" name="[이벤트] 유니크: 개척자의 의복 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600068" name="[이벤트] 카르트의 무기 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600069" name="[이벤트] 이글거리는 카르트의 무기 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600070" name="[이벤트] 동물의상: 곰 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600071" name="[이벤트] 동물의상: 토끼 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600072" name="[이벤트] 동물의상: 고양이 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600073" name="[이벤트] 동물의상: 판다 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600074" name="[이벤트] 동물의상: 너구리 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600075" name="쉐도우 헌터 의복 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600076" name="유니크: 쉐도우 헌터 의복 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600077" name="쉐도우 헌터 무기 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600078" name="유니크: 쉐도우 헌터 무기 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600079" name="[이벤트] 백은기사 방어구 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" parentId="60410600" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600080" name="메이드 무기상자" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600081" name="태양을 품은 황금용의 무기상자" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600082" name="그림자를 품은 흑룡의 무기상자" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600083" name="고대 유물 무기상자" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600084" name="할라트 무기상자" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600085" name="할라트 크리스탈 무기상자" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600086" name="할라트 진 무기상자" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600087" name="할라트 B 무기상자" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600088" name="베이지 캐주얼 프레피룩 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600089" name="산타 복장 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600090" name="유니크: 2013 산타복장(염색) 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600091" name="아르보레아 경찰복 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600092" name="[이벤트]블랙 드레스와 슈트 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600093" name="포인트 블랙 세일러룩 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600094" name="마린걸 아쿠아마린 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600095" name="파티 드레스와 슈트 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600096" name="유르제의 검은색 간호복 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600097" name="[염색]유니크: 2014 치파오 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600098" name="2014 집사복 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600101" name="[카트라이더] 다오 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600102" name="[카트라이더] 배찌 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600103" name="[카트라이더] 디지니 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600104" name="[EVT]유니크: 모던 캠퍼스룩 상자" type="eventseed" category="0" templateId="9999" nextSkill="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+</SkillData>

@@ -1,0 +1,3867 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SkillData huntingZoneId="0">
+  <Skill id="15300000" name="백사자 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000011" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="29" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300001" name="백색 군마 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="3" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300002" name="스피디-Y 2.8 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000003" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="164" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300003" name="화이트 펑키 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="56" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300004" name="블랙 펑키 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000003" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="57" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300005" name="다크퍼플 샤프팽 소환 - 컨디션 회복" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="68" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300006" name="실버 샤프팽 소환 - MP 회복" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="69" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300007" name="푸른 갈기의 늑대 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000002" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="93" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300008" name="붉은 갈기의 늑대 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000003" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="94" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300009" name="순한 땡그리(레어)" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000007" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="172" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300010" name="화난 앵그리(레어)" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000007" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="173" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300011" name="졸린 삐질이(레어)" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000007" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="174" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300012" name="순한 땡그리" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000008" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="169" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300013" name="화난 앵그리" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000008" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="170" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300014" name="졸린 삐질이" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000008" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="171" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300015" name="턱시도 냥이(레어)" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000007" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="183" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300016" name="치즈태비 냥이(레어)" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000007" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="184" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300017" name="고등어태비 냥이(레어)" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000007" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="186" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300018" name="턱시도 냥이" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000008" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="178" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300019" name="치즈태비 냥이" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000008" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="179" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300020" name="고등어태비 냥이" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000008" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="185" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300021" name="지옥불 군마 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000002" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="12" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300022" name="바하르의 사자 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000008" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="32" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300023" name="은색 기린 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000007" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="1600" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300024" name="턱시도 냥이(레어)" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000007" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="183" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300030" name="함박눈 산타 쿠마스 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000007" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="96" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300031" name="함박눈 펑펑이 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000007" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="98" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300032" name="싸락눈 산타 쿠마스 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000003" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="99" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300033" name="싸락눈 펑펑이 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000003" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="150" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300034" name="핑크 유니콘 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000007" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="175" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300035" name="경찰차 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000003" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="95" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300037" name="황금 기린 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000007" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="156" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300038" name="골드글로스 샤프팽 소환 " type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000003" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="66" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300039" name="골드 샤프팽 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000008" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="67" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300045" name="스킬교본: 황금빛 철갑 유령마 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="182" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300046" name="스피디-R 2.8 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000002" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="166" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300047" name="스피디-R 2.8 소환(3일)" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000002" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="166" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300060" name="스킬교본: 구리빛 철갑 유령마 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000003" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="181" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300061" name="스킬교본: 황금빛 철갑 유령마 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="182" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300062" name="스킬교본: 은빛 철갑 유령마 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000007" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="187" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300063" name="스킬교본: 붉은빛 철갑 유령마 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000008" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="188" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300064" name="스킬교본: 반투명 철갑 유령마 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000007" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="189" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300065" name="스킬교본: 포효의 갑주 맹호" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000004" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="65" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300066" name="스킬교본: 블랙 오오카미 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000003" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="176" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300067" name="스킬교본: 그린 오오카미 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000003" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="177" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300069" name="키티 돼지 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000007" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="213" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300071" name="연습카트[레드] 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="1920" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300072" name="연습카트[그린] 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="1930" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300073" name="연습카트[옐로] 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="1940" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300074" name="해방된 페가수스 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000012" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="204000" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300075" name="해방된 백사자 " type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000012" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="207" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300076" name="해방된 흑사자" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000012" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="208" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300077" name="해방된 바하르" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000012" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="209" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300078" name="해방된 바하르_브라운" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000012" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="210" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300079" name="해방된 바하르_골드" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000012" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="211" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300080" name="해방된 바하르_실버" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000012" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="212" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300081" name="연습카트[오리지널] 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="1910" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300082" name="칠흑의 페가수스 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000012" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="205000" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300091" name="야구모자 더키 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="46" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300092" name="루루[오리지널] 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="1990" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300093" name="루루[핑크] 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="2010" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300094" name="루루[옐로] 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="2020" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300095" name="루루[민트] 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="2030" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300096" name="세이버[오리지널] 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="1950" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300097" name="세이버[레드] 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="1960" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300098" name="세이버[블랙] 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="1970" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300099" name="세이버[퍼플] 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="1980" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300100" name="흰 날개의 아기돼지 꼬미 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000012" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="216" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300101" name="흰 날개의 얼룩돼지 똘이 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000012" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="218" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300102" name="흰 날개의 검정돼지 까미 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000012" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="221" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300103" name="흰 날개의 꽃돼지 도나 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000012" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="223" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300104" name="흰 날개의 폭주돼지 뭉치 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000012" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="225" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300105" name="무지개 날개의 아기돼지 꼬미 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000012" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="217" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300106" name="무지개 날개의 얼룩돼지 똘이 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000012" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="219" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300107" name="무지개 날개의 검정돼지 까미 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000012" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="222" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300108" name="무지개 날개의 꽃돼지 도나 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000012" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="224" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300109" name="무지개 날개의 폭주돼지 뭉치 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000012" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="226" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300110" name="황금 돼지 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000007" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="580" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300111" name="귀여운 종목걸이 라마(흰색) 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000012" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="228" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300112" name="멋쟁이 턱시도 넥타이 라마(흰색) 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000012" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="229" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300113" name="귀여운 종목걸이 라마(갈색) 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000012" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="230" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300114" name="멋쟁이 턱시도 넥타이 라마(갈색) 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000012" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="231" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300115" name="별빛 유니콘 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="41" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300116" name="핑크 유니콘 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="0" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="175" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300117" name="백곰 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000008" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="161" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300118" name="불곰 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000008" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="162" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300119" name="판다 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000003" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="163" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300120" name="백곰 소환 (3일)" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000008" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="161" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300121" name="불곰 소환 (3일)" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000008" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="162" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15300122" name="판다 소환 (3일)" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000003" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="163" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600099" name="블랙 오오카미 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000010" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="176" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="15600100" name="그린 오오카미 소환" type="mount" category="9999,9800,9801" templateId="9999" nextSkill="0" mountAbnormality="3000010" timeRate="1.1" attackRange="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property />
+          <AnimSeq duration="0" animSet="" animName="" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="177" />
+    <Precondition coolTime="1000" unionId="" unionClass="" unionElite="" modeChangeMethod="2" modeNo="30" unionClassEx="">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <BattleFieldRanker theLeastRank="-1" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+</SkillData>

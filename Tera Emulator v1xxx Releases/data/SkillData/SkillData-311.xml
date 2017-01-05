@@ -1,0 +1,1281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SkillData huntingZoneId="421">
+  <Skill id="1101" name="엘리온쿠벨_콤보1단계_Atk01_노멀" type="normal" category="" templateId="1" nextSkill="0" parentId="51087000" timeRate="0.89" attackRange="100.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="89472.94">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Elion_Kubel_Ani.Anim.Elion_Kubel_Anim" animName="atk01" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="0" animSet="Elion_Kubel_Ani.Anim.Elion_Kubel_Anim" animName="combo1R" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="1" type="none" time="390" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="-40.0" type="enemy" maxHeight="40.0" maxCount="20" maxRadius="45.0" offsetDistance="0.0" pierceDepth="1" minHeight="15.0" rangeAngle="280.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.5">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.5" miniRate="1.5" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="2" type="none" time="500" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="40.0" maxCount="20" maxRadius="45.0" offsetDistance="0.0" pierceDepth="1" minHeight="15.0" rangeAngle="280.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.5">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.5" miniRate="1.5" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1103" name="엘리온쿠벨_콤보2단계_Combo2_노멀" type="normal" category="" templateId="1" nextSkill="0" parentId="51087000" timeRate="0.89" attackRange="100.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="152330.10">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Elion_Kubel_Ani.Anim.Elion_Kubel_Anim" animName="atk01" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Elion_Kubel_Ani.Anim.Elion_Kubel_Anim" animName="combo2" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="0" animSet="Elion_Kubel_Ani.Anim.Elion_Kubel_Anim" animName="combo2R" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="1" type="none" time="390" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="-40.0" type="enemy" maxHeight="40.0" maxCount="20" maxRadius="45.0" offsetDistance="0.0" pierceDepth="1" minHeight="15.0" rangeAngle="280.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.2">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.5" miniRate="1.5" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="2" type="none" time="500" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="40.0" maxCount="20" maxRadius="45.0" offsetDistance="0.0" pierceDepth="1" minHeight="15.0" rangeAngle="280.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.2">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.5" miniRate="1.5" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="3" type="none" time="1180" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="20.0" maxCount="20" maxRadius="50.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="270.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.5" miniRate="1.5" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="4" type="none" time="1320" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="20.0" maxCount="20" maxRadius="50.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="270.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.5" miniRate="1.5" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1104" name="엘리온쿠벨_콤보3단계_Combo3_노멀" type="normal" category="" templateId="1" nextSkill="0" parentId="51087000" timeRate="0.89" attackRange="100.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="215187.26">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Elion_Kubel_Ani.Anim.Elion_Kubel_Anim" animName="atk01" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Elion_Kubel_Ani.Anim.Elion_Kubel_Anim" animName="combo2" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Elion_Kubel_Ani.Anim.Elion_Kubel_Anim" animName="combo3" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="0" animSet="Elion_Kubel_Ani.Anim.Elion_Kubel_Anim" animName="combo3R" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="1" type="none" time="390" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="-40.0" type="enemy" maxHeight="40.0" maxCount="20" maxRadius="45.0" offsetDistance="0.0" pierceDepth="1" minHeight="15.0" rangeAngle="280.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.2">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="10.0" miniRate="20.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="2" type="none" time="500" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="40.0" maxCount="20" maxRadius="45.0" offsetDistance="0.0" pierceDepth="1" minHeight="15.0" rangeAngle="280.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.2">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="10.0" miniRate="20.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="3" type="none" time="1180" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="20.0" maxCount="20" maxRadius="50.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="270.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.2">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="10.0" miniRate="20.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="4" type="none" time="1320" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="20.0" maxCount="20" maxRadius="50.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="270.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.2">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="10.0" miniRate="20.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="5" type="none" time="1908" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="-20.0" type="enemy" maxHeight="35.0" maxCount="20" maxRadius="40.0" offsetDistance="0.0" pierceDepth="1" minHeight="20.0" rangeAngle="270.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.2">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="10.0" miniRate="20.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="6" type="none" time="2070" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="35.0" maxCount="20" maxRadius="45.0" offsetDistance="0.0" pierceDepth="1" minHeight="20.0" rangeAngle="360.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.2">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="10.0" miniRate="20.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1105" name="엘리온쿠벨_콤보4단계_Combo4_노멀" type="normal" category="" templateId="1" nextSkill="0" parentId="51087000" timeRate="0.89" attackRange="100.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="270873.66">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Elion_Kubel_Ani.Anim.Elion_Kubel_Anim" animName="atk01" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Elion_Kubel_Ani.Anim.Elion_Kubel_Anim" animName="combo2" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Elion_Kubel_Ani.Anim.Elion_Kubel_Anim" animName="combo3" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Elion_Kubel_Ani.Anim.Elion_Kubel_Anim" animName="combo4" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="1" type="none" time="390" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="-40.0" type="enemy" maxHeight="40.0" maxCount="20" maxRadius="45.0" offsetDistance="0.0" pierceDepth="1" minHeight="15.0" rangeAngle="280.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.1">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="10.0" miniRate="20.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="2" type="none" time="500" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="40.0" maxCount="20" maxRadius="45.0" offsetDistance="0.0" pierceDepth="1" minHeight="15.0" rangeAngle="280.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.1">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="10.0" miniRate="20.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="3" type="none" time="1180" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="20.0" maxCount="20" maxRadius="50.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="270.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.15">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="10.0" miniRate="20.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="4" type="none" time="1320" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="20.0" maxCount="20" maxRadius="50.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="270.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.15">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="10.0" miniRate="20.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="5" type="none" time="1908" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="-20.0" type="enemy" maxHeight="35.0" maxCount="20" maxRadius="40.0" offsetDistance="0.0" pierceDepth="1" minHeight="20.0" rangeAngle="270.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.15">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="10.0" miniRate="20.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="6" type="none" time="2070" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="35.0" maxCount="20" maxRadius="45.0" offsetDistance="0.0" pierceDepth="1" minHeight="20.0" rangeAngle="360.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.15">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="10.0" miniRate="20.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="7" type="none" time="3000" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="40.0" maxCount="20" maxRadius="50.0" offsetDistance="5.0" pierceDepth="1" minHeight="20.0" rangeAngle="360.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.2">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="10.0" miniRate="20.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1106" name="엘리온쿠벨_내려찍기_Downblow_노멀" type="normal" category="" templateId="1" nextSkill="0" parentId="51087000" timeRate="0.89" attackRange="30.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="118543.57">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Elion_Kubel_Ani.Anim.Elion_Kubel_Anim" animName="DownBlow" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="1" type="none" time="600" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="50.0" maxCount="15" maxRadius="25.0" offsetDistance="10.0" pierceDepth="1" minHeight="-15.0" rangeAngle="360.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="1.0">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.0" miniRate="1.5" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="15" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1107" name="엘리온쿠벨_회피공격_EvasionAttack_노멀" type="normal" category="" templateId="1" nextSkill="0" parentId="51087000" timeRate="0.89" attackRange="70.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="157239.80">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Elion_Kubel_Ani.Anim.Elion_Kubel_Anim" animName="EvasionAttack" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="1" type="none" time="1150" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="100.0" maxCount="15" maxRadius="50.0" offsetDistance="20.0" pierceDepth="1" minHeight="20.0" rangeAngle="240.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="1.0">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="10.0" miniRate="30.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="13" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1108" name="엘리온쿠벨_독바르기_PosinBlow_노멀" type="normal" category="" templateId="1" nextSkill="0" parentId="51087000" timeRate="0.89" attackRange="80.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="67702.27">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Elion_Kubel_Ani.Anim.Elion_Kubel_Anim" animName="PoisonBlow" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="1" type="none" time="300" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="40.0" maxCount="15" maxRadius="220.0" offsetDistance="-140.0" pierceDepth="1" minHeight="10.0" rangeAngle="6.0" crosshairRadius="1.0" minRadius="150.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="1.0">
+              <AbnormalityOnCommon id="99000430" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.0" miniRate="30.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="10" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1109" name="엘리온쿠벨_기상공격_RisingAttack_노멀" type="normal" category="" templateId="1" nextSkill="0" parentId="51087000" timeRate="0.89" attackRange="100.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="89842.09">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Elion_Kubel_Ani.Anim.Elion_Kubel_Anim" animName="RisingAttack" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="1" type="real_forward" time="600" method="normal" endTime="910" startTime="610" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="40.0" maxCount="10" maxRadius="100.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="-360.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="1.0">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="150.0" miniRate="0.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1205" name="엘리온쿠벨_회피구르기_tumbling_노멀" type="normal" category="" templateId="1" nextSkill="0" parentId="51087000" timeRate="1.0" attackRange="100.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="0">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Elion_Kubel_Ani.Anim.Elion_Kubel_Anim" animName="tumbling" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse" />
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1206" name="엘리온쿠벨_무기넣기_InWeapon_노멀" type="normal" category="" templateId="1" nextSkill="0" parentId="51087000" timeRate="1.0" attackRange="100.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="0">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Elion_Kubel_Ani.Anim.Elion_Kubel_Anim" animName="inweapon" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse" />
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1207" name="엘리온쿠벨_무기빼기_OutWeapon_노멀" type="normal" category="" templateId="1" nextSkill="0" parentId="51087000" timeRate="1.0" attackRange="100.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="0">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Elion_Kubel_Ani.Anim.Elion_Kubel_Anim" animName="outweapon" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse" />
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="2101" name="엘리온쿠벨_콤보1단계_Atk01_분노" type="normal" category="" templateId="1" nextSkill="0" parentId="51087000" timeRate="1.246" attackRange="100.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="95932.96">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Elion_Kubel_Ani.Anim.Elion_Kubel_Anim" animName="atk01" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="0" animSet="Elion_Kubel_Ani.Anim.Elion_Kubel_Anim" animName="combo1R" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="1" type="none" time="390" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="-40.0" type="enemy" maxHeight="40.0" maxCount="20" maxRadius="45.0" offsetDistance="0.0" pierceDepth="1" minHeight="15.0" rangeAngle="280.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.5">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.5" miniRate="1.5" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="2" type="none" time="500" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="40.0" maxCount="20" maxRadius="45.0" offsetDistance="0.0" pierceDepth="1" minHeight="15.0" rangeAngle="280.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.5">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.5" miniRate="1.5" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="2103" name="엘리온쿠벨_콤보2단계_Combo2_분노" type="normal" category="" templateId="1" nextSkill="0" parentId="51087000" timeRate="1.246" attackRange="100.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="163279.84">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Elion_Kubel_Ani.Anim.Elion_Kubel_Anim" animName="atk01" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Elion_Kubel_Ani.Anim.Elion_Kubel_Anim" animName="combo2" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="0" animSet="Elion_Kubel_Ani.Anim.Elion_Kubel_Anim" animName="combo2R" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="1" type="none" time="390" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="-40.0" type="enemy" maxHeight="40.0" maxCount="20" maxRadius="45.0" offsetDistance="0.0" pierceDepth="1" minHeight="15.0" rangeAngle="280.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.2">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.5" miniRate="1.5" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="2" type="none" time="500" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="40.0" maxCount="20" maxRadius="45.0" offsetDistance="0.0" pierceDepth="1" minHeight="15.0" rangeAngle="280.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.2">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.5" miniRate="1.5" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="3" type="none" time="1180" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="20.0" maxCount="20" maxRadius="50.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="270.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.5" miniRate="1.5" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="4" type="none" time="1320" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="20.0" maxCount="20" maxRadius="50.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="270.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.5" miniRate="1.5" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="2104" name="엘리온쿠벨_콤보3단계_Combo3_분노" type="normal" category="" templateId="1" nextSkill="0" parentId="51087000" timeRate="1.246" attackRange="100.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="230626.72">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Elion_Kubel_Ani.Anim.Elion_Kubel_Anim" animName="atk01" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Elion_Kubel_Ani.Anim.Elion_Kubel_Anim" animName="combo2" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Elion_Kubel_Ani.Anim.Elion_Kubel_Anim" animName="combo3" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="0" animSet="Elion_Kubel_Ani.Anim.Elion_Kubel_Anim" animName="combo3R" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="1" type="none" time="390" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="-40.0" type="enemy" maxHeight="40.0" maxCount="20" maxRadius="45.0" offsetDistance="0.0" pierceDepth="1" minHeight="15.0" rangeAngle="280.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.2">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="10.0" miniRate="20.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="2" type="none" time="500" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="40.0" maxCount="20" maxRadius="45.0" offsetDistance="0.0" pierceDepth="1" minHeight="15.0" rangeAngle="280.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.2">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="10.0" miniRate="20.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="3" type="none" time="1180" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="20.0" maxCount="20" maxRadius="50.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="270.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.2">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="10.0" miniRate="20.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="4" type="none" time="1320" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="20.0" maxCount="20" maxRadius="50.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="270.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.2">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="10.0" miniRate="20.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="5" type="none" time="1908" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="-20.0" type="enemy" maxHeight="35.0" maxCount="20" maxRadius="40.0" offsetDistance="0.0" pierceDepth="1" minHeight="20.0" rangeAngle="270.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.2">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="10.0" miniRate="20.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="6" type="none" time="2070" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="35.0" maxCount="20" maxRadius="45.0" offsetDistance="0.0" pierceDepth="1" minHeight="20.0" rangeAngle="360.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.2">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="10.0" miniRate="20.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="2105" name="엘리온쿠벨_콤보4단계_Combo4_분노" type="normal" category="" templateId="1" nextSkill="0" parentId="51087000" timeRate="1.246" attackRange="100.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="290221.44">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Elion_Kubel_Ani.Anim.Elion_Kubel_Anim" animName="atk01" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Elion_Kubel_Ani.Anim.Elion_Kubel_Anim" animName="combo2" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Elion_Kubel_Ani.Anim.Elion_Kubel_Anim" animName="combo3" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Elion_Kubel_Ani.Anim.Elion_Kubel_Anim" animName="combo4" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="1" type="none" time="390" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="-40.0" type="enemy" maxHeight="40.0" maxCount="20" maxRadius="45.0" offsetDistance="0.0" pierceDepth="1" minHeight="15.0" rangeAngle="280.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.1">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="10.0" miniRate="20.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="2" type="none" time="500" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="40.0" maxCount="20" maxRadius="45.0" offsetDistance="0.0" pierceDepth="1" minHeight="15.0" rangeAngle="280.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.1">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="10.0" miniRate="20.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="3" type="none" time="1180" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="20.0" maxCount="20" maxRadius="50.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="270.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.15">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="10.0" miniRate="20.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="4" type="none" time="1320" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="20.0" maxCount="20" maxRadius="50.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="270.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.15">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="10.0" miniRate="20.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="5" type="none" time="1908" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="-20.0" type="enemy" maxHeight="35.0" maxCount="20" maxRadius="40.0" offsetDistance="0.0" pierceDepth="1" minHeight="20.0" rangeAngle="270.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.15">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="10.0" miniRate="20.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="6" type="none" time="2070" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="35.0" maxCount="20" maxRadius="45.0" offsetDistance="0.0" pierceDepth="1" minHeight="20.0" rangeAngle="360.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.15">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="10.0" miniRate="20.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="7" type="none" time="3000" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="40.0" maxCount="20" maxRadius="50.0" offsetDistance="5.0" pierceDepth="1" minHeight="20.0" rangeAngle="360.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.2">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="10.0" miniRate="20.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="2106" name="엘리온쿠벨_내려찍기_Downblow_분노" type="normal" category="" templateId="1" nextSkill="0" parentId="51087000" timeRate="1.246" attackRange="30.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="127038.50">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Elion_Kubel_Ani.Anim.Elion_Kubel_Anim" animName="DownBlow" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="1" type="none" time="600" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="50.0" maxCount="15" maxRadius="25.0" offsetDistance="10.0" pierceDepth="1" minHeight="-15.0" rangeAngle="360.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="1.0">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.0" miniRate="1.5" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="15" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="2107" name="엘리온쿠벨_회피공격_EvasionAttack_분노" type="normal" category="" templateId="1" nextSkill="0" parentId="51087000" timeRate="1.246" attackRange="70.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="168415.65">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Elion_Kubel_Ani.Anim.Elion_Kubel_Anim" animName="EvasionAttack" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="1" type="none" time="1150" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="100.0" maxCount="15" maxRadius="50.0" offsetDistance="20.0" pierceDepth="1" minHeight="20.0" rangeAngle="240.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="1.0">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="10.0" miniRate="30.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="13" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="2108" name="엘리온쿠벨_독바르기_PosinBlow_분노" type="normal" category="" templateId="1" nextSkill="0" parentId="51087000" timeRate="1.246" attackRange="80.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="72579.59">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Elion_Kubel_Ani.Anim.Elion_Kubel_Anim" animName="PoisonBlow" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="1" type="none" time="300" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="40.0" maxCount="15" maxRadius="220.0" offsetDistance="-140.0" pierceDepth="1" minHeight="10.0" rangeAngle="6.0" crosshairRadius="1.0" minRadius="150.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="1.0">
+              <AbnormalityOnCommon id="99000430" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.0" miniRate="30.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="10" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="2109" name="엘리온쿠벨_기상공격_RisingAttack_분노" type="normal" category="" templateId="1" nextSkill="0" parentId="51087000" timeRate="1.246" attackRange="100.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="96279.04">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Elion_Kubel_Ani.Anim.Elion_Kubel_Anim" animName="RisingAttack" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="1" type="real_forward" time="600" method="normal" endTime="910" startTime="610" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="40.0" maxCount="10" maxRadius="100.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="-360.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="1.0">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="150.0" miniRate="0.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="2205" name="엘리온쿠벨_회피구르기_tumbling_분노" type="normal" category="" templateId="1" nextSkill="0" parentId="51087000" timeRate="1.4" attackRange="100.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="0">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Elion_Kubel_Ani.Anim.Elion_Kubel_Anim" animName="tumbling" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse" />
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="2206" name="엘리온쿠벨_무기넣기_InWeapon_분노" type="normal" category="" templateId="1" nextSkill="0" parentId="51087000" timeRate="1.4" attackRange="100.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="0">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Elion_Kubel_Ani.Anim.Elion_Kubel_Anim" animName="inweapon" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse" />
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="2207" name="엘리온쿠벨_무기빼기_OutWeapon_분노" type="normal" category="" templateId="1" nextSkill="0" parentId="51087000" timeRate="1.4" attackRange="100.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="0">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Elion_Kubel_Ani.Anim.Elion_Kubel_Anim" animName="outweapon" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse" />
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+</SkillData>

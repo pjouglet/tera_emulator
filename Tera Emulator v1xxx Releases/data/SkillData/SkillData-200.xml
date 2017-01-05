@@ -1,0 +1,1936 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SkillData huntingZoneId="117">
+  <Skill id="1102" name="청의마인_사전동작있는점프공격_ReactionAtk_노말" type="normal" category="9011" templateId="5000" nextSkill="0" parentId="30067000" timeRate="3.0" attackRange="575.000000" attackRangeMax="484.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="push" returnAnimName="" returnAnimSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" totalAtk="27000000.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <HitCylinderList>
+        <HitCylinder startTime="2160">
+          <Cylinder radius="184.444458" locAngle="0.0" locDistance="-15.0" locZ="100.0" height="322.222229" />
+        </HitCylinder>
+        <HitCylinder startTime="2950">
+          <Cylinder radius="184.444458" locAngle="0.0" locDistance="-15.0" locZ="0.0" height="322.222229" />
+        </HitCylinder>
+        <HitCylinder startTime="2160">
+          <Cylinder radius="184.444458" locAngle="0.0" locDistance="-15.0" locZ="100.0" height="322.222229" />
+        </HitCylinder>
+        <HitCylinder startTime="2950">
+          <Cylinder radius="160.0" locAngle="0.0" locDistance="-15.0" locZ="0.0" height="250.0" />
+        </HitCylinder>
+      </HitCylinderList>
+      <MoveCylinderList />
+      <MoveInvincible endTime="3230" startTime="1129" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" animName="reactionAtk_1" animRate="1.0" blendInTime="0" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+        <Stage scriptId="0" changeDirToTarget="True" changeDirToTargetMax="180" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="True" />
+          <AnimSeq duration="0" animSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" animName="reactionAtk_2" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="2.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" animName="reactionAtk_3" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList>
+        <CameraShake duration="200" targetType="all" startTime="1000" power="1.6" innerRadius="0.0" outerRadius="150.0" speed="8.0" startValue="-1" shakeId="0" startCondition="skillStart" />
+        <CameraShake duration="500" targetType="all" startTime="1960" power="4.0" innerRadius="0.0" outerRadius="300.0" speed="6.0" startValue="-1" shakeId="0" startCondition="skillStart" />
+        <CameraShake duration="1000" targetType="all" startTime="3050" power="6.0" innerRadius="0.0" outerRadius="400.0" speed="8.0" startValue="-1" shakeId="0" startCondition="skillStart" />
+        <CameraShake duration="200" targetType="all" startTime="1560" power="0.8" innerRadius="0.0" outerRadius="200.0" speed="6.0" startValue="-1" shakeId="0" startCondition="skillStart" />
+      </CameraShakeList>
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="1" type="none" time="3084" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="20" maxRadius="123.076927" offsetDistance="15.3846159" pierceDepth="1" minHeight="0.0" rangeAngle="360.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="1.0">
+              <AbnormalityOnCommon id="2065" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="150.0" miniRate="50.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="1" type="none" time="3280" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="46.1538467" maxCount="20" maxRadius="180.0" offsetDistance="15.3846159" pierceDepth="1" minHeight="-15.3846159" rangeAngle="360.0" crosshairRadius="1.0" minRadius="123.076927" offsetAngle="10.0" crosshairRadius2="3.0">
+            <Effect atk="1.0">
+              <AbnormalityOnCommon id="2065" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="150.0" miniRate="50.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="True" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="10000" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1103" name="청의마인_3연타공격_HeavyAtk_노말" type="normal" category="9011" templateId="5000" nextSkill="0" parentId="30067000" timeRate="3.0" attackRange="222.000000" attackRangeMax="485.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="push" returnAnimName="" returnAnimSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" totalAtk="25000000.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" animName="heavyAtk" animRate="1.0" blendInTime="0" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList>
+        <CameraShake duration="300" targetType="all" startTime="1930" power="2.0" innerRadius="0.0" outerRadius="150.0" speed="4.0" startValue="-1" shakeId="0" startCondition="skillStart" />
+        <CameraShake duration="300" targetType="all" startTime="2700" power="2.0" innerRadius="0.0" outerRadius="150.0" speed="4.0" startValue="-1" shakeId="0" startCondition="skillStart" />
+        <CameraShake duration="500" targetType="all" startTime="4250" power="4.0" innerRadius="0.0" outerRadius="400.0" speed="8.0" startValue="-1" shakeId="0" startCondition="skillStart" />
+      </CameraShakeList>
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="-1" type="none" time="2005" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="10" maxRadius="200.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="80.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="15.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="2066" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="20.0" miniRate="30.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="10" />
+      </Targeting>
+      <Targeting id="-1" type="none" time="2786" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="20" maxRadius="200.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="80.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="-15.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="2066" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="20.0" miniRate="30.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="10" />
+      </Targeting>
+      <Targeting id="-1" type="none" time="4190" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="10" maxRadius="180.07692" offsetDistance="184.615387" pierceDepth="1" minHeight="0.0" rangeAngle="360.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.4">
+              <AbnormalityOnCommon id="2066" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="20.0" miniRate="30.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="10" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="True" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="1000" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="100" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1104" name="청의마인_원거리발사동작_LongAtk_노말" type="normal" category="" templateId="5000" nextSkill="0" parentId="30067000" timeRate="2.5" attackRange="873.333313" attackRangeMax="873.000000" autoUse="False" changeDirToCenter="True" needWeapon="True" pushtarget="push" returnAnimName="" returnAnimSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" totalAtk="0.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" animName="longatk" animRate="1.0" blendInTime="0" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList>
+        <CameraShake duration="500" targetType="all" startTime="2100" power="4.0" innerRadius="0.0" outerRadius="300.0" speed="7.0" startValue="-1" shakeId="0" startCondition="skillStart" />
+      </CameraShakeList>
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="-1" type="none" time="2040" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList />
+        <Cost hp="0" mp="0" />
+        <ProjectileSkillList>
+          <ProjectileSkill id="1105" detachAngle="-20.0" detachDistance="70.000000" detachHeight="150.000000" flyingDistance="2000.000000" flyingSpeed="1200.0" shootAngle="0.0" />
+          <ProjectileSkill id="1105" detachAngle="-20.0" detachDistance="70.000000" detachHeight="70.000000" flyingDistance="2000.000000" flyingSpeed="1200.0" shootAngle="30.0" />
+          <ProjectileSkill id="1105" detachAngle="-20.0" detachDistance="70.000000" detachHeight="70.000000" flyingDistance="2000.000000" flyingSpeed="1200.0" shootAngle="60.0" />
+          <ProjectileSkill id="1105" detachAngle="-20.0" detachDistance="70.000000" detachHeight="70.000000" flyingDistance="2000.000000" flyingSpeed="1200.0" shootAngle="90.0" />
+          <ProjectileSkill id="1105" detachAngle="-20.0" detachDistance="70.000000" detachHeight="70.000000" flyingDistance="2000.000000" flyingSpeed="1200.0" shootAngle="120.0" />
+          <ProjectileSkill id="1105" detachAngle="-20.0" detachDistance="70.000000" detachHeight="70.000000" flyingDistance="2000.000000" flyingSpeed="1200.0" shootAngle="150.0" />
+          <ProjectileSkill id="1105" detachAngle="-20.0" detachDistance="70.000000" detachHeight="70.000000" flyingDistance="2000.000000" flyingSpeed="1200.0" shootAngle="180.0" />
+          <ProjectileSkill id="1105" detachAngle="-20.0" detachDistance="70.000000" detachHeight="70.000000" flyingDistance="2000.000000" flyingSpeed="1200.0" shootAngle="210.0" />
+          <ProjectileSkill id="1105" detachAngle="-20.0" detachDistance="70.000000" detachHeight="70.000000" flyingDistance="2000.000000" flyingSpeed="1200.0" shootAngle="240.0" />
+          <ProjectileSkill id="1105" detachAngle="-20.0" detachDistance="70.000000" detachHeight="70.000000" flyingDistance="2000.000000" flyingSpeed="1200.0" shootAngle="270.0" />
+          <ProjectileSkill id="1105" detachAngle="-20.0" detachDistance="70.000000" detachHeight="70.000000" flyingDistance="2000.000000" flyingSpeed="1200.0" shootAngle="300.0" />
+          <ProjectileSkill id="1105" detachAngle="-20.0" detachDistance="70.000000" detachHeight="70.000000" flyingDistance="2000.000000" flyingSpeed="1200.0" shootAngle="330.0" />
+          <ProjectileSkill id="1105" detachAngle="20.0" detachDistance="-70.000000" detachHeight="70.000000" flyingDistance="2000.000000" flyingSpeed="1200.0" shootAngle="0.0" />
+        </ProjectileSkillList>
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="True" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="30000" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1105" name="청의마인_원거리발사체_LongAtk_노말" type="projectile" category="9012" templateId="5000" nextSkill="0" parentId="30067000" timeRate="2.5" attackRange="218.333328" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="push" returnAnimName="" returnAnimSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" totalAtk="11500000.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="4004" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="1" type="none" time="0" method="normal" endTime="0" startTime="0" interval="100" until="1000">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="25.0" maxCount="20" maxRadius="100.0" offsetDistance="0.0" pierceDepth="1" minHeight="-25.0" rangeAngle="360.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="1.0">
+              <AbnormalityOnCommon id="2064" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.0" miniRate="0.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="True" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="10000" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="1310" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1111" name="청의마인_주변대폭발_UltraAtk01_노멀" type="normal" category="9011" templateId="5000" nextSkill="0" parentId="30067000" timeRate="3.0" attackRange="450.000000" attackRangeMax="450.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" totalAtk="30000000.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" animName="UltraAtk01" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="-1" type="none" time="2880" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="10" maxRadius="750.384644" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="25.0" crosshairRadius="1.0" minRadius="50.0" offsetAngle="-30.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="50.0" miniRate="50.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="-1" type="none" time="3100" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="10" maxRadius="750.384644" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="25.0" crosshairRadius="1.0" minRadius="50.0" offsetAngle="-10.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="50.0" miniRate="50.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="-1" type="none" time="3340" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="10" maxRadius="750.384644" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="25.0" crosshairRadius="1.0" minRadius="50.0" offsetAngle="10.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="50.0" miniRate="50.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="-1" type="none" time="3640" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="10" maxRadius="750.384644" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="25.0" crosshairRadius="1.0" minRadius="50.0" offsetAngle="30.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="50.0" miniRate="50.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="-1" type="none" time="4090" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="10" maxRadius="750.384644" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="25.0" crosshairRadius="1.0" minRadius="50.0" offsetAngle="10.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="50.0" miniRate="50.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="-1" type="none" time="4460" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="10" maxRadius="750.384644" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="25.0" crosshairRadius="1.0" minRadius="50.0" offsetAngle="-10.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="50.0" miniRate="50.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="-1" type="none" time="4860" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="10" maxRadius="750.384644" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="25.0" crosshairRadius="1.0" minRadius="50.0" offsetAngle="-30.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="50.0" miniRate="50.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="-1" type="none" time="5220" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="10" maxRadius="750.384644" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="25.0" crosshairRadius="1.0" minRadius="50.0" offsetAngle="-10.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="50.0" miniRate="50.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="-1" type="none" time="5440" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="10" maxRadius="750.384644" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="25.0" crosshairRadius="1.0" minRadius="50.0" offsetAngle="10.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="50.0" miniRate="50.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="-1" type="none" time="5800" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="10" maxRadius="750.384644" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="25.0" crosshairRadius="1.0" minRadius="50.0" offsetAngle="30.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="50.0" miniRate="50.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="-1" type="none" time="8700" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="80.0" maxCount="10" maxRadius="500.0" offsetDistance="100.0" pierceDepth="1" minHeight="-20.0" rangeAngle="270.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.9">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="150.0" miniRate="50.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="1" type="none" time="8753" method="normal" endTime="0" startTime="0" interval="100" until="9158">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="80.0" maxCount="10" maxRadius="1600.0" offsetDistance="-1500.0" pierceDepth="1" minHeight="-20.0" rangeAngle="10.0" crosshairRadius="1.0" minRadius="1300.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.2">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="150.0" miniRate="50.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="True" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="10000" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1212" name="청의마인_백무브_ BackMove_노멀" type="normal" category="" templateId="5000" nextSkill="0" parentId="30067000" timeRate="2.5" attackRange="100.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="25715388.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" animName="BackMove" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList>
+        <CameraShake duration="3000" targetType="all" startTime="1900" power="1.2" innerRadius="0.0" outerRadius="500.0" speed="2.0" startValue="-1" shakeId="0" startCondition="skillStart" />
+        <CameraShake duration="1500" targetType="all" startTime="2695" power="1.2" innerRadius="0.0" outerRadius="500.0" speed="2.0" startValue="-1" shakeId="0" startCondition="skillStart" />
+      </CameraShakeList>
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="-1" type="none" time="2700" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="60.0" maxCount="10" maxRadius="220.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="360.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="1.0">
+              <AbnormalityOnCommon id="2066" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="20.0" miniRate="30.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="True" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="5000" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1299" name="쿠마스 변신 해제" type="mount" category="9012" templateId="5000" nextSkill="0" parentId="72022000" timeRate="1.0" attackRange="100.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" totalAtk="0.000000">
+    <Property weaponStatus="in" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" animName="Wait" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="-1" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse" />
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="0" />
+    <Precondition coolTime="3000" modeChangeMethod="2" modeNo="30">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="1318" name="청의마인_주먹발사후전방위공격_HeavyAtk02_공용" type="normal" category="9011" templateId="5000" nextSkill="0" parentId="30067000" timeRate="1.2" attackRange="100.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="120000000.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" animName="heavyatk02" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList>
+        <CameraShake duration="200" targetType="all" startTime="840" power="2.0" innerRadius="0.0" outerRadius="300.0" speed="1.0" startValue="-1" shakeId="0" startCondition="skillStart" />
+        <CameraShake duration="200" targetType="all" startTime="2010" power="2.0" innerRadius="0.0" outerRadius="300.0" speed="1.0" startValue="-1" shakeId="0" startCondition="skillStart" />
+        <CameraShake duration="200" targetType="all" startTime="2355" power="2.0" innerRadius="0.0" outerRadius="300.0" speed="1.0" startValue="-1" shakeId="0" startCondition="skillStart" />
+        <CameraShake duration="200" targetType="all" startTime="2746" power="2.0" innerRadius="0.0" outerRadius="300.0" speed="3.0" startValue="-1" shakeId="0" startCondition="skillStart" />
+        <CameraShake duration="1000" targetType="all" startTime="3031" power="1.0" innerRadius="0.0" outerRadius="300.0" speed="5.0" startValue="-1" shakeId="0" startCondition="skillStart" />
+        <CameraShake duration="200" targetType="all" startTime="3691" power="3.0" innerRadius="0.0" outerRadius="300.0" speed="1.0" startValue="-1" shakeId="0" startCondition="skillStart" />
+        <CameraShake duration="200" targetType="all" startTime="3871" power="2.0" innerRadius="0.0" outerRadius="200.0" speed="1.0" startValue="-1" shakeId="0" startCondition="skillStart" />
+        <CameraShake duration="400" targetType="all" startTime="4352" power="3.0" innerRadius="0.0" outerRadius="200.0" speed="1.0" startValue="-1" shakeId="0" startCondition="skillStart" />
+        <CameraShake duration="200" targetType="all" startTime="4697" power="1.0" innerRadius="0.0" outerRadius="200.0" speed="2.0" startValue="-1" shakeId="0" startCondition="skillStart" />
+        <CameraShake duration="400" targetType="all" startTime="5357" power="3.0" innerRadius="0.0" outerRadius="300.0" speed="1.0" startValue="-1" shakeId="0" startCondition="skillStart" />
+      </CameraShakeList>
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="1" type="none" time="1080" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="60.0" maxCount="10" maxRadius="720.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="10.0" crosshairRadius="3.0" minRadius="200.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="5.0" miniRate="15.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+          <Area rotateAngle="180.0" type="enemyOrPvp" maxHeight="60.0" maxCount="10" maxRadius="720.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="10.0" crosshairRadius="3.0" minRadius="200.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="5.0" miniRate="15.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="2" type="none" time="1440" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="60.0" maxCount="10" maxRadius="1220.0" offsetDistance="-500.0" pierceDepth="1" minHeight="0.0" rangeAngle="6.0" crosshairRadius="3.0" minRadius="600.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="2065" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="5.0" miniRate="15.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+          <Area rotateAngle="180.0" type="enemyOrPvp" maxHeight="60.0" maxCount="10" maxRadius="1220.0" offsetDistance="500.0" pierceDepth="1" minHeight="0.0" rangeAngle="6.0" crosshairRadius="3.0" minRadius="600.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="2065" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="5.0" miniRate="15.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="3" type="none" time="2566" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="60.0" maxCount="10" maxRadius="630.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="10.0" crosshairRadius="3.0" minRadius="420.0" offsetAngle="90.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="5.0" miniRate="15.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="60.0" maxCount="10" maxRadius="630.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="10.0" crosshairRadius="3.0" minRadius="420.0" offsetAngle="-90.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="2065" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="5.0" miniRate="15.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="4" type="none" time="2851" method="normal" endTime="0" startTime="0" interval="190" until="3016">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="60.0" maxCount="10" maxRadius="1130.0" offsetDistance="-500.0" pierceDepth="1" minHeight="0.0" rangeAngle="6.0" crosshairRadius="3.0" minRadius="650.0" offsetAngle="90.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="2065" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="5.0" miniRate="15.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="60.0" maxCount="10" maxRadius="1130.0" offsetDistance="-500.0" pierceDepth="1" minHeight="0.0" rangeAngle="6.0" crosshairRadius="3.0" minRadius="650.0" offsetAngle="-90.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="2065" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="5.0" miniRate="15.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="-1" type="none" time="3031" method="normal" endTime="0" startTime="0" interval="300" until="3571">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="60.0" maxCount="10" maxRadius="270.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="360.0" crosshairRadius="3.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.1">
+              <AbnormalityOnCommon id="2065" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="5.0" miniRate="15.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="5" type="none" time="4007" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="60.0" maxCount="10" maxRadius="765.0" offsetDistance="-300.0" pierceDepth="1" minHeight="0.0" rangeAngle="6.0" crosshairRadius="3.0" minRadius="370.0" offsetAngle="-43.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="5.0" miniRate="15.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="60.0" maxCount="10" maxRadius="715.0" offsetDistance="-300.0" pierceDepth="1" minHeight="0.0" rangeAngle="6.0" crosshairRadius="3.0" minRadius="390.0" offsetAngle="139.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="2065" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="5.0" miniRate="15.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="6" type="none" time="4757" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="60.0" maxCount="10" maxRadius="775.0" offsetDistance="-300.0" pierceDepth="1" minHeight="0.0" rangeAngle="6.0" crosshairRadius="3.0" minRadius="475.0" offsetAngle="54.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="2065" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="5.0" miniRate="15.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="60.0" maxCount="10" maxRadius="775.0" offsetDistance="-300.0" pierceDepth="1" minHeight="0.0" rangeAngle="6.0" crosshairRadius="3.0" minRadius="475.0" offsetAngle="-131.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="2065" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="5.0" miniRate="15.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="15000" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="2201" name="청의마인_정화" type="normal" category="" templateId="5000" nextSkill="0" parentId="30067000" timeRate="1.5" attackRange="873.333313" attackRangeMax="873.000000" autoUse="False" changeDirToCenter="True" needWeapon="True" pushtarget="push" returnAnimName="" returnAnimSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" totalAtk="0.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" animName="longatk" animRate="1.0" blendInTime="0" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="1" type="none" time="1000" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="ally" maxHeight="100.0" maxCount="15" maxRadius="300.0" offsetDistance="175.0" pierceDepth="1" minHeight="-75.0" rangeAngle="360.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.0">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.0" miniRate="0.0" />
+            <HitEffect type="nothing" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="150" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="True" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="10000" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="2202" name="청의마인_힐" type="normal" category="" templateId="5000" nextSkill="0" parentId="30067000" timeRate="1.5" attackRange="873.333313" attackRangeMax="873.000000" autoUse="False" changeDirToCenter="True" needWeapon="True" pushtarget="push" returnAnimName="" returnAnimSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" totalAtk="0.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" animName="longatk" animRate="1.0" blendInTime="0" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList>
+      <Targeting id="1" type="none" time="1000" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="allyExceptMe" maxHeight="100.0" maxCount="5" maxRadius="300.0" offsetDistance="110.0" pierceDepth="1" minHeight="-75.0" rangeAngle="360.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.0">
+              <HpDiff value="250000" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.0" miniRate="0.0" />
+            <HitEffect type="onlyDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="True" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="60000" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="1102" name="청의마인_사전동작있는점프공격_ReactionAtk_노말" type="normal" category="9011" templateId="6000" nextSkill="0" parentId="30067000" timeRate="3.0" attackRange="575.000000" attackRangeMax="484.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="push" returnAnimName="" returnAnimSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" totalAtk="30188200.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <HitCylinderList>
+        <HitCylinder startTime="2160">
+          <Cylinder radius="184.444458" locAngle="0.0" locDistance="-15.0" locZ="100.0" height="322.222229" />
+        </HitCylinder>
+        <HitCylinder startTime="2950">
+          <Cylinder radius="184.444458" locAngle="0.0" locDistance="-15.0" locZ="0.0" height="322.222229" />
+        </HitCylinder>
+        <HitCylinder startTime="2160">
+          <Cylinder radius="184.444458" locAngle="0.0" locDistance="-15.0" locZ="100.0" height="322.222229" />
+        </HitCylinder>
+        <HitCylinder startTime="2950">
+          <Cylinder radius="160.0" locAngle="0.0" locDistance="-15.0" locZ="0.0" height="250.0" />
+        </HitCylinder>
+      </HitCylinderList>
+      <MoveCylinderList />
+      <MoveInvincible endTime="2230" startTime="1129" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" animName="reactionAtk_1" animRate="1.0" blendInTime="0" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+        <Stage scriptId="0" changeDirToTarget="True" changeDirToTargetMax="180" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="True" />
+          <AnimSeq duration="0" animSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" animName="reactionAtk_2" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="2.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" animName="reactionAtk_3" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList>
+        <CameraShake duration="200" targetType="all" startTime="1000" power="1.6" innerRadius="0.0" outerRadius="150.0" speed="8.0" startValue="-1" shakeId="0" startCondition="skillStart" />
+        <CameraShake duration="500" targetType="all" startTime="1960" power="4.0" innerRadius="0.0" outerRadius="300.0" speed="6.0" startValue="-1" shakeId="0" startCondition="skillStart" />
+        <CameraShake duration="1000" targetType="all" startTime="3050" power="6.0" innerRadius="0.0" outerRadius="400.0" speed="8.0" startValue="-1" shakeId="0" startCondition="skillStart" />
+        <CameraShake duration="200" targetType="all" startTime="1560" power="0.8" innerRadius="0.0" outerRadius="200.0" speed="6.0" startValue="-1" shakeId="0" startCondition="skillStart" />
+      </CameraShakeList>
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="1" type="none" time="3084" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="20" maxRadius="123.076927" offsetDistance="15.3846159" pierceDepth="1" minHeight="0.0" rangeAngle="360.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="1.0">
+              <AbnormalityOnCommon id="2065" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="150.0" miniRate="50.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="1" type="none" time="3280" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="46.1538467" maxCount="20" maxRadius="180.0" offsetDistance="15.3846159" pierceDepth="1" minHeight="-15.3846159" rangeAngle="360.0" crosshairRadius="1.0" minRadius="123.076927" offsetAngle="10.0" crosshairRadius2="3.0">
+            <Effect atk="1.0">
+              <AbnormalityOnCommon id="2065" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="150.0" miniRate="50.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="True" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="15000" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1104" name="청의마인_원거리발사동작_LongAtk_노말" type="normal" category="" templateId="6000" nextSkill="0" parentId="30067000" timeRate="2.5" attackRange="873.333313" attackRangeMax="873.000000" autoUse="False" changeDirToCenter="True" needWeapon="True" pushtarget="push" returnAnimName="" returnAnimSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" totalAtk="0.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" animName="longatk" animRate="1.0" blendInTime="0" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList>
+        <CameraShake duration="500" targetType="all" startTime="2100" power="4.0" innerRadius="0.0" outerRadius="300.0" speed="7.0" startValue="-1" shakeId="0" startCondition="skillStart" />
+      </CameraShakeList>
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="-1" type="none" time="2040" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList />
+        <Cost hp="0" mp="0" />
+        <ProjectileSkillList>
+          <ProjectileSkill id="1105" detachAngle="20.0" detachDistance="70.000000" detachHeight="150.000000" flyingDistance="2000.000000" flyingSpeed="1200.0" shootAngle="0.0" />
+          <ProjectileSkill id="1105" detachAngle="-20.0" detachDistance="70.000000" detachHeight="70.000000" flyingDistance="2000.000000" flyingSpeed="1200.0" shootAngle="0.0" />
+        </ProjectileSkillList>
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="True" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="12000" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1105" name="청의마인_원거리발사체_LongAtk_노말" type="projectile" category="9012" templateId="6000" nextSkill="0" parentId="30067000" timeRate="2.5" attackRange="218.333328" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="push" returnAnimName="" returnAnimSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" totalAtk="8500000.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="4004" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="1" type="none" time="0" method="normal" endTime="0" startTime="0" interval="100" until="1000">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="25.0" maxCount="20" maxRadius="100.0" offsetDistance="0.0" pierceDepth="1" minHeight="-25.0" rangeAngle="360.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="1.0">
+              <AbnormalityOnCommon id="2064" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.0" miniRate="0.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="True" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="10000" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="1310" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1106" name="청의마인_브레스뿜기_LongAtk01_노말" type="normal" category="9012" templateId="6000" nextSkill="0" parentId="30067000" timeRate="3.0" attackRange="615.000000" attackRangeMax="615.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="push" returnAnimName="" returnAnimSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" totalAtk="30045282.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" animName="LongAtk01_1" animRate="1.0" blendInTime="0" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+        <Stage scriptId="0" changeDirToTarget="True" changeDirToTargetMax="30" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" animName="LongAtk01_2" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList>
+        <CameraShake duration="5000" targetType="all" startTime="2930" power="0.8" innerRadius="0.0" outerRadius="200.0" speed="15.0" startValue="-1" shakeId="0" startCondition="skillStart" />
+      </CameraShakeList>
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="-1" type="none" time="2880" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="10" maxRadius="750.384644" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="25.0" crosshairRadius="1.0" minRadius="50.0" offsetAngle="-30.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="50.0" miniRate="50.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="-1" type="none" time="3100" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="10" maxRadius="750.384644" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="25.0" crosshairRadius="1.0" minRadius="50.0" offsetAngle="-10.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="50.0" miniRate="50.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="-1" type="none" time="3340" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="10" maxRadius="750.384644" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="25.0" crosshairRadius="1.0" minRadius="50.0" offsetAngle="10.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="50.0" miniRate="50.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="-1" type="none" time="3640" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="10" maxRadius="750.384644" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="25.0" crosshairRadius="1.0" minRadius="50.0" offsetAngle="30.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="50.0" miniRate="50.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="-1" type="none" time="4090" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="10" maxRadius="750.384644" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="25.0" crosshairRadius="1.0" minRadius="50.0" offsetAngle="10.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="50.0" miniRate="50.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="-1" type="none" time="4460" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="10" maxRadius="750.384644" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="25.0" crosshairRadius="1.0" minRadius="50.0" offsetAngle="-10.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="50.0" miniRate="50.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="-1" type="none" time="4860" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="10" maxRadius="750.384644" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="25.0" crosshairRadius="1.0" minRadius="50.0" offsetAngle="-30.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="50.0" miniRate="50.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="-1" type="none" time="5220" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="10" maxRadius="750.384644" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="25.0" crosshairRadius="1.0" minRadius="50.0" offsetAngle="-10.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="50.0" miniRate="50.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="-1" type="none" time="5440" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="10" maxRadius="750.384644" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="25.0" crosshairRadius="1.0" minRadius="50.0" offsetAngle="10.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="50.0" miniRate="50.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="-1" type="none" time="5800" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="10" maxRadius="750.384644" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="25.0" crosshairRadius="1.0" minRadius="50.0" offsetAngle="30.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="50.0" miniRate="50.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="True" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="10000" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1108" name="청의마인_우회전공격_RoundAtk_노말" type="normal" category="9011" templateId="6000" nextSkill="0" parentId="30067000" timeRate="3.0" attackRange="34.000000" attackRangeMax="196.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="push" returnAnimName="" returnAnimSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" totalAtk="12000000.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" animName="roundatk" animRate="1.0" blendInTime="0" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList>
+        <CameraShake duration="200" targetType="all" startTime="135" power="0.8" innerRadius="0.0" outerRadius="200.0" speed="5.0" startValue="-1" shakeId="0" startCondition="skillStart" />
+        <CameraShake duration="400" targetType="all" startTime="1100" power="2.0" innerRadius="0.0" outerRadius="300.0" speed="8.0" startValue="-1" shakeId="0" startCondition="skillStart" />
+        <CameraShake duration="500" targetType="all" startTime="1700" power="4.0" innerRadius="0.0" outerRadius="400.0" speed="5.0" startValue="-1" shakeId="0" startCondition="skillStart" />
+        <CameraShake duration="200" targetType="all" startTime="2200" power="1.2" innerRadius="0.0" outerRadius="300.0" speed="6.0" startValue="-1" shakeId="0" startCondition="skillStart" />
+      </CameraShakeList>
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="1" type="none" time="1813" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="-40.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="20" maxRadius="400.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="120.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="1.0">
+              <AbnormalityOnCommon id="2066" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="15.0" miniRate="30.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="1" type="none" time="2020" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="20" maxRadius="400.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="120.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="1.0">
+              <AbnormalityOnCommon id="2066" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="15.0" miniRate="30.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="True" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="3500" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1109" name="청의마인_좌회전공격_RoundAtk01_노말" type="normal" category="9011" templateId="6000" nextSkill="0" parentId="30067000" timeRate="3.0" attackRange="34.000000" attackRangeMax="196.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="push" returnAnimName="" returnAnimSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" totalAtk="12000000.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" animName="roundAtk01" animRate="1.0" blendInTime="0" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList>
+        <CameraShake duration="200" targetType="all" startTime="135" power="0.8" innerRadius="0.0" outerRadius="200.0" speed="5.0" startValue="-1" shakeId="0" startCondition="skillStart" />
+        <CameraShake duration="400" targetType="all" startTime="1100" power="2.0" innerRadius="0.0" outerRadius="300.0" speed="8.0" startValue="-1" shakeId="0" startCondition="skillStart" />
+        <CameraShake duration="500" targetType="all" startTime="1700" power="4.0" innerRadius="0.0" outerRadius="400.0" speed="5.0" startValue="-1" shakeId="0" startCondition="skillStart" />
+        <CameraShake duration="200" targetType="all" startTime="2200" power="1.2" innerRadius="0.0" outerRadius="300.0" speed="6.0" startValue="-1" shakeId="0" startCondition="skillStart" />
+      </CameraShakeList>
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="1" type="none" time="1813" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="40.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="20" maxRadius="400.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="120.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="1.0">
+              <AbnormalityOnCommon id="2066" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="15.0" miniRate="30.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="1" type="none" time="2020" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="40.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="20" maxRadius="400.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="120.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="1.0">
+              <AbnormalityOnCommon id="2066" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="15.0" miniRate="30.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="True" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="3500" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1299" name="쿠마스 변신 해제" type="mount" category="9012" templateId="6000" nextSkill="0" parentId="72022000" timeRate="1.0" attackRange="100.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" totalAtk="0.000000">
+    <Property weaponStatus="in" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" animName="Wait" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="-1" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse" />
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="0" />
+    <Precondition coolTime="3000" modeChangeMethod="2" modeNo="30">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="1311" name="청의마인_앞으로구르기_Rolling_F_공용" type="normal" category="9011" templateId="6000" nextSkill="0" parentId="30067000" timeRate="2.0" attackRange="0.000000" attackRangeMax="500.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="push" returnAnimName="" returnAnimSet="" totalAtk="12715388.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="2390" startTime="1" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" animName="Rolling_F_Start" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+        <Stage scriptId="0" changeDirToTarget="True" changeDirToTargetMax="20" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="True" />
+          <AnimSeq duration="0" animSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" animName="Rolling_F_Loop" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.5" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" animName="Rolling_F_End" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="-1" type="none" time="1618" method="normal" endTime="0" startTime="0" interval="200" until="2295">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="100.0" maxCount="10" maxRadius="150.0" offsetDistance="50.0" pierceDepth="1" minHeight="0.0" rangeAngle="360.0" crosshairRadius="3.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.5">
+              <AbnormalityOnCommon id="2065" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="150.0" miniRate="0.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="True" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="15000" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="2201" name="청의마인_정화" type="normal" category="" templateId="6000" nextSkill="0" parentId="30067000" timeRate="1.5" attackRange="873.333313" attackRangeMax="873.000000" autoUse="False" changeDirToCenter="True" needWeapon="True" pushtarget="push" returnAnimName="" returnAnimSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" totalAtk="0.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" animName="longatk" animRate="1.0" blendInTime="0" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="1" type="none" time="1000" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="ally" maxHeight="100.0" maxCount="15" maxRadius="300.0" offsetDistance="175.0" pierceDepth="1" minHeight="-75.0" rangeAngle="360.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.0">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.0" miniRate="0.0" />
+            <HitEffect type="nothing" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="150" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="True" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="10000" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1103" name="청의마인_3연타공격_HeavyAtk_노말" type="normal" category="9011" templateId="7000" nextSkill="0" parentId="30067000" timeRate="2.5" attackRange="222.000000" attackRangeMax="485.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="push" returnAnimName="" returnAnimSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" totalAtk="5000000.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" animName="heavyAtk" animRate="1.0" blendInTime="0" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList>
+        <CameraShake duration="300" targetType="all" startTime="1930" power="2.0" innerRadius="0.0" outerRadius="150.0" speed="4.0" startValue="-1" shakeId="0" startCondition="skillStart" />
+        <CameraShake duration="300" targetType="all" startTime="2700" power="2.0" innerRadius="0.0" outerRadius="150.0" speed="4.0" startValue="-1" shakeId="0" startCondition="skillStart" />
+        <CameraShake duration="500" targetType="all" startTime="4250" power="4.0" innerRadius="0.0" outerRadius="400.0" speed="8.0" startValue="-1" shakeId="0" startCondition="skillStart" />
+      </CameraShakeList>
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="-1" type="none" time="2005" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="10" maxRadius="200.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="80.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="15.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="20.0" miniRate="30.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="-1" type="none" time="2786" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="20" maxRadius="200.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="80.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="-15.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="20.0" miniRate="30.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="-1" type="none" time="4190" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="10" maxRadius="123.076927" offsetDistance="184.615387" pierceDepth="1" minHeight="0.0" rangeAngle="360.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.4">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="20.0" miniRate="30.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="True" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="20000" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1111" name="청의마인_주변대폭발_UltraAtk01_노멀" type="normal" category="9011" templateId="7000" nextSkill="0" parentId="30067000" timeRate="2.5" attackRange="450.000000" attackRangeMax="450.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" totalAtk="5000000.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" animName="UltraAtk01" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="-1" type="none" time="2880" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="10" maxRadius="615.384644" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="25.0" crosshairRadius="1.0" minRadius="100.0" offsetAngle="-30.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="50.0" miniRate="50.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="-1" type="none" time="3100" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="10" maxRadius="615.384644" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="25.0" crosshairRadius="1.0" minRadius="100.0" offsetAngle="-10.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="50.0" miniRate="50.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="-1" type="none" time="3340" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="10" maxRadius="615.384644" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="25.0" crosshairRadius="1.0" minRadius="100.0" offsetAngle="10.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="50.0" miniRate="50.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="-1" type="none" time="3640" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="10" maxRadius="615.384644" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="25.0" crosshairRadius="1.0" minRadius="100.0" offsetAngle="30.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="50.0" miniRate="50.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="-1" type="none" time="4090" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="10" maxRadius="615.384644" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="25.0" crosshairRadius="1.0" minRadius="100.0" offsetAngle="10.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="50.0" miniRate="50.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="-1" type="none" time="4460" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="10" maxRadius="615.384644" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="25.0" crosshairRadius="1.0" minRadius="100.0" offsetAngle="-10.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="50.0" miniRate="50.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="-1" type="none" time="4860" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="10" maxRadius="615.384644" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="25.0" crosshairRadius="1.0" minRadius="100.0" offsetAngle="-30.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="50.0" miniRate="50.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="-1" type="none" time="5220" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="10" maxRadius="615.384644" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="25.0" crosshairRadius="1.0" minRadius="100.0" offsetAngle="-10.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="50.0" miniRate="50.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="-1" type="none" time="5440" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="10" maxRadius="615.384644" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="25.0" crosshairRadius="1.0" minRadius="100.0" offsetAngle="10.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="50.0" miniRate="50.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="-1" type="none" time="5800" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="92.30769" maxCount="10" maxRadius="615.384644" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="25.0" crosshairRadius="1.0" minRadius="100.0" offsetAngle="30.0" crosshairRadius2="3.0">
+            <Effect atk="0.3">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="50.0" miniRate="50.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="-1" type="none" time="8700" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="80.0" maxCount="10" maxRadius="350.0" offsetDistance="100.0" pierceDepth="1" minHeight="-20.0" rangeAngle="270.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.9">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="150.0" miniRate="50.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="1" type="none" time="8753" method="normal" endTime="0" startTime="0" interval="100" until="9158">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="80.0" maxCount="10" maxRadius="1600.0" offsetDistance="-1500.0" pierceDepth="1" minHeight="-20.0" rangeAngle="10.0" crosshairRadius="1.0" minRadius="1300.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.2">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="150.0" miniRate="50.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="True" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="20000" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1212" name="청의마인_백무브_ BackMove_노멀" type="normal" category="" templateId="7000" nextSkill="0" parentId="30067000" timeRate="2.5" attackRange="100.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="5000000.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" animName="BackMove" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList>
+        <CameraShake duration="3000" targetType="all" startTime="1900" power="1.2" innerRadius="0.0" outerRadius="500.0" speed="2.0" startValue="-1" shakeId="0" startCondition="skillStart" />
+        <CameraShake duration="1500" targetType="all" startTime="2695" power="1.2" innerRadius="0.0" outerRadius="500.0" speed="2.0" startValue="-1" shakeId="0" startCondition="skillStart" />
+      </CameraShakeList>
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="-1" type="none" time="2700" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="60.0" maxCount="10" maxRadius="220.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="360.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="1.0">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="20.0" miniRate="30.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="True" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="10000" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1299" name="쿠마스 변신 해제" type="mount" category="9012" templateId="7000" nextSkill="0" parentId="72022000" timeRate="1.0" attackRange="100.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" totalAtk="0.000000">
+    <Property weaponStatus="in" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" animName="Wait" animRate="1.0" blendInTime="200" animMotionId="2" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="-1" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse" />
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Mount vehicleId="0" />
+    <Precondition coolTime="3000" modeChangeMethod="2" modeNo="30">
+      <Cost hp="0" mp="0">
+        <ItemList />
+      </Cost>
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="6009" name="청의마인_앞으로구르기_Rolling_F_공용" type="normal" category="9011" templateId="7000" nextSkill="0" parentId="30067000" timeRate="2.0" attackRange="0.000000" attackRangeMax="500.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="push" returnAnimName="" returnAnimSet="" totalAtk="5000000.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="2390" startTime="1" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" animName="Rolling_F_Start" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+        <Stage scriptId="0" changeDirToTarget="True" changeDirToTargetMax="20" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="True" />
+          <AnimSeq duration="0" animSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" animName="Rolling_F_Loop" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.5" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="LesserElementalBlue_ANI.Anim.LesserElementalBlue_Anim" animName="Rolling_F_End" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="-1" type="none" time="1618" method="normal" endTime="0" startTime="0" interval="200" until="2295">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemyOrPvp" maxHeight="100.0" maxCount="10" maxRadius="150.0" offsetDistance="50.0" pierceDepth="1" minHeight="0.0" rangeAngle="360.0" crosshairRadius="3.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.5">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="100.0" miniRate="0.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="True" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="15000" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1108" name="작동스위치_1000uu버프_atk01_공용" type="normal" category="0" templateId="8000" nextSkill="0" parentId="60096000" timeRate="1.0" attackRange="100.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="NPC_SWC_Quest_ANI.Anim.Turret_Anim" totalAtk="0">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="NPC_SWC_Quest_ANI.Anim.Turret_Anim" animName="Turret_atk01" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="-1" type="none" time="0" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="allPcExceptMe" maxHeight="500.0" maxCount="100" maxRadius="1000.0" offsetDistance="0.0" pierceDepth="1" minHeight="-500.0" rangeAngle="360.0" crosshairRadius="3.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.0">
+              <AbnormalityOnCommon id="2090" />
+              <AbnormalityOnCommon id="2092" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.0" miniRate="0.0" />
+            <HitEffect type="nothing" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1108" name="작동스위치_1000uu버프_atk01_공용" type="normal" category="0" templateId="8001" nextSkill="0" parentId="60096000" timeRate="1.0" attackRange="100.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="NPC_SWC_Quest_ANI.Anim.Turret_Anim" totalAtk="0">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="NPC_SWC_Quest_ANI.Anim.Turret_Anim" animName="Turret_atk01" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="-1" type="none" time="0" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="allPcExceptMe" maxHeight="500.0" maxCount="100" maxRadius="1000.0" offsetDistance="0.0" pierceDepth="1" minHeight="-500.0" rangeAngle="360.0" crosshairRadius="3.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.0">
+              <AbnormalityOnCommon id="2072" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.0" miniRate="0.0" />
+            <HitEffect type="nothing" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1108" name="정령 사용 불가 버프" type="normal" category="0" templateId="8002" nextSkill="0" parentId="60096000" timeRate="1.0" attackRange="100.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="NPC_SWC_Quest_ANI.Anim.Turret_Anim" totalAtk="0">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="NPC_SWC_Quest_ANI.Anim.Turret_Anim" animName="Turret_atk01" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="-1" type="none" time="0" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="allPcExceptMe" maxHeight="500.0" maxCount="100" maxRadius="1000.0" offsetDistance="0.0" pierceDepth="1" minHeight="-500.0" rangeAngle="360.0" crosshairRadius="3.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.0">
+              <AbnormalityOnCommon id="2092" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.0" miniRate="0.0" />
+            <HitEffect type="nothing" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+</SkillData>

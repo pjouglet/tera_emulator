@@ -1,0 +1,607 @@
+﻿  XMLDocumentParser.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\xmldocumentparser.cpp(236): warning C4244: 'initialisation' : conversion de 'std::streamoff' en 'unsigned int', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\xmldocumentparser.cpp(297): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\xmldocumentparser.cpp(407): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\xmldocumentparser.cpp(411): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\xmldocumentparser.cpp(566): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\xmldocumentparser.cpp(570): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\xmldocumentparser.cpp(645): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\xmldocumentparser.cpp(649): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\xmldocumentparser.cpp(841): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\xmldocumentparser.cpp(998): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\xmldocumentparser.cpp(1002): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\xmldocumentparser.cpp(1006): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\xmldocumentparser.cpp(1026): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\xmldocumentparser.cpp(1107): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\xmldocumentparser.cpp(1115): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\xmldocumentparser.cpp(1123): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\xmldocumentparser.cpp(1127): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\xmldocumentparser.cpp(1135): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\xmldocumentparser.cpp(1139): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\xmldocumentparser.cpp(1143): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\xmldocumentparser.cpp(1147): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\xmldocumentparser.cpp(1151): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\xmldocumentparser.cpp(1155): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\xmldocumentparser.cpp(1173): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\xmldocumentparser.cpp(1238): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\xmldocumentparser.cpp(1242): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\xmldocumentparser.cpp(1420): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\xmldocumentparser.cpp(1500): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\xmldocumentparser.cpp(1508): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+  WorldSystem.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\player.hpp(14): warning C4099: 'AreaSection' : nom de type déjà rencontré avec 'class' et utilisant maintenant 'struct'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\area.h(20): note: voir la déclaration de 'AreaSection'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creature.h(28): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creature.h(30): warning C4584: 'Creature' : la classe de base 'Entity' est déjà une classe de base de 'CreatureBase'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\entity.h(5): note: voir la déclaration de 'Entity'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturebase.h(7): note: voir la déclaration de 'CreatureBase'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creature.h(28): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\worldsystem.cpp(72): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\worldsystem.cpp(429): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\worldsystem.cpp(460): warning C4018: '<' : incompatibilité signed/unsigned
+  WorldPosition.cpp
+  WorldObject.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\player.hpp(14): warning C4099: 'AreaSection' : nom de type déjà rencontré avec 'class' et utilisant maintenant 'struct'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\area.h(20): note: voir la déclaration de 'AreaSection'
+  UnionSystem.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\player.hpp(14): warning C4099: 'AreaSection' : nom de type déjà rencontré avec 'class' et utilisant maintenant 'struct'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\area.h(20): note: voir la déclaration de 'AreaSection'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\unionsystem.cpp(8): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\unionsystem.cpp(8): warning C4309: 'argument' : troncation de valeur de constante
+  ToSendPacket.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\tosendpacket.cpp(21): warning C4150: suppression de pointeur vers type incomplet 'Stream' ; aucun destructeur appelé
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\tosendpacket.h(32): note: voir la déclaration de 'Stream'
+  ServerUtils.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\serverutils.cpp(9): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\serverutils.cpp(34): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\serverutils.cpp(212): warning C4305: '=' : troncation de 'int' à 'unsigned char'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\serverutils.cpp(212): warning C4309: '=' : troncation de valeur de constante
+  Server.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\opcodes.hpp(12): warning C4114: même qualificateur de type utilisé plusieurs fois
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\opcodes.hpp(14): warning C4114: même qualificateur de type utilisé plusieurs fois
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\opcodes.hpp(17): warning C4114: même qualificateur de type utilisé plusieurs fois
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\server.cpp(401): warning C4800: 'int' : valeur forcée à la valeur booléenne 'true' ou 'false' (avertissement sur les performances)
+  TeraPacket.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\terapacket.cpp(48): warning C4018: '>' : incompatibilité signed/unsigned
+  Stream.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\stream.cpp(15): warning C4244: '=' : conversion de 'std::streamoff' en 'unsigned int', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\stream.cpp(299): warning C4244: '=' : conversion de 'int64_t' en 'unsigned char', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\stream.cpp(301): warning C4244: '=' : conversion de '__int64' en 'unsigned char', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\stream.cpp(302): warning C4244: '=' : conversion de '__int64' en 'unsigned char', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\stream.cpp(303): warning C4244: '=' : conversion de '__int64' en 'unsigned char', perte possible de données
+  StatsService.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'class' et utilisant maintenant 'struct'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(12): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creature.h(28): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creature.h(30): warning C4584: 'Creature' : la classe de base 'Entity' est déjà une classe de base de 'CreatureBase'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\entity.h(5): note: voir la déclaration de 'Entity'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturebase.h(7): note: voir la déclaration de 'CreatureBase'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.cpp(328): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.cpp(328): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.cpp(339): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.cpp(340): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.cpp(362): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.cpp(363): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.cpp(401): warning C4305: 'argument' : troncation de 'double' à 'float'
+  SSetVisibleRange.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+  SLoginArbiter.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\sloginarbiter.cpp(46): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\sloginarbiter.cpp(46): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\sloginarbiter.cpp(83): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\sloginarbiter.cpp(83): warning C4309: 'argument' : troncation de valeur de constante
+  SkillStructs.cpp
+  SkillService.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\skillservice.cpp(63): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\skillservice.cpp(171): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\skillservice.cpp(171): warning C4309: 'argument' : troncation de valeur de constante
+  Skill.cpp
+  ServerTimer.cpp
+  SendPacket.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+  SCheckVersion.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+  RVisitNewSection.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\area.h(20): warning C4099: 'AreaSection' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\area.h(19): note: voir la déclaration de 'AreaSection'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rvisitnewsection.cpp(31): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rvisitnewsection.cpp(31): warning C4309: 'argument' : troncation de valeur de constante
+  Génération de code en cours...
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\worldposition.cpp(111): warning C4172: retourne l'adresse d'une variable locale ou  temporaire
+  Compilation en cours...
+  RUpdateContentsPlayTime.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+  RUnionSummary.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+  RUnequipItem.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+  RTryLootDropItem.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+  RTradeBrokerHighestItemLevel.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rtradebrokerhighestitemlevel.cpp(11): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rtradebrokerhighestitemlevel.cpp(11): warning C4309: 'argument' : troncation de valeur de constante
+  RStrEvaluateList.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+  RStartSkill.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+  RSkillLearnRequest.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rskilllearnrequest.cpp(27): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rskilllearnrequest.cpp(27): warning C4309: 'argument' : troncation de valeur de constante
+  RSimpleTipRepeatCheck.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+  RSkillLearnList.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+  RShowItemToolTipEx.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rshowitemtooltipex.cpp(32): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rshowitemtooltipex.cpp(32): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rshowitemtooltipex.cpp(37): warning C4267: 'argument' : conversion de 'size_t' en 'short', perte possible de données
+  RShowInven.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+  RServerTime.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+  RSelectPlayer.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\area.h(20): warning C4099: 'AreaSection' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\area.h(19): note: voir la déclaration de 'AreaSection'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(29): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(29): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(42): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(42): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(174): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(174): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(183): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(183): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(194): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(194): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(200): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(200): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(215): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(215): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(223): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(223): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(231): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(231): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(250): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(250): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(255): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(255): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(262): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(262): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(268): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(268): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(274): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(274): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(301): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(301): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(324): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(324): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(368): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(368): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(376): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(376): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(386): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(386): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(401): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(401): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(402): warning C4244: 'argument' : conversion de '__int64' en 'int', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(409): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(409): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(415): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(415): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(421): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(421): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(428): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rselectplayer.cpp(428): warning C4309: 'argument' : troncation de valeur de constante
+  RSaveUserSettings.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+  RSavePlayerAccountSettings.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+  RReturnToLobby.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rreturntolobby.cpp(15): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rreturntolobby.cpp(15): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rreturntolobby.cpp(21): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rreturntolobby.cpp(21): warning C4309: 'argument' : troncation de valeur de constante
+  RReqVipSystemInfo.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rreqvipsysteminfo.cpp(15): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rreqvipsysteminfo.cpp(15): warning C4309: 'argument' : troncation de valeur de constante
+  RRequestUserItemLevelInfo.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rrequestuseritemlevelinfo.cpp(18): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rrequestuseritemlevelinfo.cpp(18): warning C4309: 'argument' : troncation de valeur de constante
+  RRequestInstoreProductList.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rrequestinstoreproductlist.cpp(12): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rrequestinstoreproductlist.cpp(12): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rrequestinstoreproductlist.cpp(19): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rrequestinstoreproductlist.cpp(19): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rrequestinstoreproductlist.cpp(33): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rrequestinstoreproductlist.cpp(33): warning C4309: 'argument' : troncation de valeur de constante
+  Génération de code en cours...
+  Compilation en cours...
+  RRequestGameStatPing.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rrequestgamestatping.cpp(13): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rrequestgamestatping.cpp(13): warning C4309: 'argument' : troncation de valeur de constante
+  RRequestContract.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rrequestcontract.cpp(22): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rrequestcontract.cpp(22): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rrequestcontract.cpp(28): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rrequestcontract.cpp(28): warning C4309: 'argument' : troncation de valeur de constante
+  RRaignInfo.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rraigninfo.cpp(14): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rraigninfo.cpp(14): warning C4309: 'argument' : troncation de valeur de constante
+  RNpcGuildList.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rnpcguildlist.cpp(22): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rnpcguildlist.cpp(22): warning C4309: 'argument' : troncation de valeur de constante
+  RNotifyLocationInAction.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+  RMovePlayer.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rmoveplayer.cpp(32): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rmoveplayer.cpp(32): warning C4309: 'argument' : troncation de valeur de constante
+  RMoveItemPos.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rmoveitempos.cpp(43): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rmoveitempos.cpp(43): warning C4309: 'argument' : troncation de valeur de constante
+  RLoadTopoFin.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\area.h(20): warning C4099: 'AreaSection' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\area.h(19): note: voir la déclaration de 'AreaSection'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rloadtopofin.cpp(35): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rloadtopofin.cpp(35): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rloadtopofin.cpp(42): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rloadtopofin.cpp(42): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rloadtopofin.cpp(57): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rloadtopofin.cpp(57): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rloadtopofin.cpp(67): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rloadtopofin.cpp(67): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rloadtopofin.cpp(77): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rloadtopofin.cpp(77): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rloadtopofin.cpp(92): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rloadtopofin.cpp(92): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rloadtopofin.cpp(99): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rloadtopofin.cpp(99): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rloadtopofin.cpp(106): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rloadtopofin.cpp(106): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rloadtopofin.cpp(116): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rloadtopofin.cpp(116): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rloadtopofin.cpp(132): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rloadtopofin.cpp(132): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rloadtopofin.cpp(156): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rloadtopofin.cpp(156): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rloadtopofin.cpp(166): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rloadtopofin.cpp(166): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rloadtopofin.cpp(179): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rloadtopofin.cpp(179): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rloadtopofin.cpp(188): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rloadtopofin.cpp(188): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rloadtopofin.cpp(204): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rloadtopofin.cpp(204): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rloadtopofin.cpp(211): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rloadtopofin.cpp(211): warning C4309: 'argument' : troncation de valeur de constante
+  RInventoryAutoSort.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+  RHardwareInfo.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+  RGuardPkPolicy.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rguardpkpolicy.cpp(13): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rguardpkpolicy.cpp(13): warning C4309: 'argument' : troncation de valeur de constante
+  RGetPlayerList.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+  RGetPlayerGuildLogo.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rgetplayerguildlogo.cpp(13): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rgetplayerguildlogo.cpp(13): warning C4309: 'argument' : troncation de valeur de constante
+  RExit.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rexit.cpp(12): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rexit.cpp(12): warning C4309: 'argument' : troncation de valeur de constante
+  REventGuide.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\reventguide.cpp(10): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\reventguide.cpp(10): warning C4309: 'argument' : troncation de valeur de constante
+  REquipItem.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+  RDungeonCoolTImeList.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rdungeoncooltimelist.cpp(15): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rdungeoncooltimelist.cpp(15): warning C4309: 'argument' : troncation de valeur de constante
+  RDungeonClearCountList.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+  RDelItem.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+  RDeletePlayer.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rdeleteplayer.cpp(26): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rdeleteplayer.cpp(26): warning C4309: 'argument' : troncation de valeur de constante
+  Génération de code en cours...
+  Compilation en cours...
+  2DRectangle.cpp
+  RCreatePlayer.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rcreateplayer.cpp(89): warning C4244: 'argument' : conversion de '__int64' en 'int32_t', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rcreateplayer.cpp(99): warning C4244: 'argument' : conversion de '__int64' en 'int32_t', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rcreateplayer.cpp(100): warning C4244: 'argument' : conversion de '__int64' en 'int32_t', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rcreateplayer.cpp(101): warning C4244: 'argument' : conversion de '__int64' en 'int32_t', perte possible de données
+  RCheckUsername.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rcheckusername.cpp(18): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rcheckusername.cpp(18): warning C4309: 'argument' : troncation de valeur de constante
+  RChat.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\area.h(20): warning C4099: 'AreaSection' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\area.h(19): note: voir la déclaration de 'AreaSection'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rchat.cpp(94): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rchat.cpp(94): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rchat.cpp(121): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rchat.cpp(121): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rchat.cpp(152): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rchat.cpp(152): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rchat.cpp(184): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rchat.cpp(204): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rchat.cpp(204): warning C4309: 'argument' : troncation de valeur de constante
+  RChangeUserLobbySlotId.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+  RCanCreatePlayer.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rcancreateplayer.cpp(14): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\rcancreateplayer.cpp(14): warning C4309: 'argument' : troncation de valeur de constante
+  RCancelSkill.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+  RCancelDeletePlayer.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+  ProjectileStructs.cpp
+  ProjectileSkill.cpp
+  Projectile.cpp
+  PlayerStructs.cpp
+  PlayerService.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\player.hpp(14): warning C4099: 'AreaSection' : nom de type déjà rencontré avec 'class' et utilisant maintenant 'struct'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\area.h(20): note: voir la déclaration de 'AreaSection'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\playerservice.cpp(62): warning C4244: '=' : conversion de 'int64_t' en 'int', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\playerservice.cpp(84): warning C4244: 'initialisation' : conversion de 'std::streamoff' en 'int', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\playerservice.cpp(127): warning C4244: '=' : conversion de 'float' en 'short', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\playerservice.cpp(212): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\playerservice.cpp(224): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\playerservice.cpp(290): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\playerservice.cpp(311): warning C4244: 'initialisation' : conversion de 'std::streamoff' en 'int', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\playerservice.cpp(647): warning C4244: 'argument' : conversion de 'unsigned __int64' en 'int32_t', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\playerservice.cpp(861): warning C4244: 'argument' : conversion de 'unsigned __int64' en 'int32_t', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\playerservice.cpp(997): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\playerservice.cpp(997): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\playerservice.cpp(1036): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\playerservice.cpp(1036): warning C4309: 'argument' : troncation de valeur de constante
+  Player.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\area.h(20): warning C4099: 'AreaSection' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\area.h(19): note: voir la déclaration de 'AreaSection'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\player.cpp(60): warning C4150: suppression de pointeur vers type incomplet 'Inventory' ; aucun destructeur appelé
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\player.hpp(14): note: voir la déclaration de 'Inventory'
+  PassivitySystem.cpp
+  PassivityService.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\passivityservice.cpp(35): warning C4018: '<' : incompatibilité signed/unsigned
+  Passivity.cpp
+  OpCodes.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\opcodes.hpp(12): warning C4114: même qualificateur de type utilisé plusieurs fois
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\opcodes.hpp(14): warning C4114: même qualificateur de type utilisé plusieurs fois
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\opcodes.hpp(17): warning C4114: même qualificateur de type utilisé plusieurs fois
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\opcodes.cpp(18): warning C4114: même qualificateur de type utilisé plusieurs fois
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\opcodes.cpp(33): warning C4114: même qualificateur de type utilisé plusieurs fois
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\opcodes.cpp(46): warning C4114: même qualificateur de type utilisé plusieurs fois
+  SQLStream.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\mysql\sqlstream.cpp(44): warning C4305: '=' : troncation de 'int' à 'char'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\mysql\sqlstream.cpp(44): warning C4309: '=' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\mysql\sqlstream.cpp(67): warning C4305: '=' : troncation de 'int' à 'char'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\mysql\sqlstream.cpp(67): warning C4309: '=' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\mysql\sqlstream.cpp(69): warning C4305: '=' : troncation de 'int' à 'char'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\mysql\sqlstream.cpp(69): warning C4309: '=' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\mysql\sqlstream.cpp(71): warning C4305: '=' : troncation de 'int' à 'char'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\mysql\sqlstream.cpp(71): warning C4309: '=' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\mysql\sqlstream.cpp(73): warning C4305: '=' : troncation de 'int' à 'char'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\mysql\sqlstream.cpp(73): warning C4309: '=' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\mysql\sqlstream.cpp(75): warning C4305: '=' : troncation de 'int' à 'char'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\mysql\sqlstream.cpp(75): warning C4309: '=' : troncation de valeur de constante
+  MySqlDriver.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\mysql\mysqldriver.cpp(113): warning C4800: 'int' : valeur forcée à la valeur booléenne 'true' ou 'false' (avertissement sur les performances)
+  Génération de code en cours...
+  Compilation en cours...
+  MobStats.cpp
+  MessagingSystem.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\messagingsystem.cpp(21): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\messagingsystem.cpp(21): warning C4309: 'argument' : troncation de valeur de constante
+  main.cpp
+  Listener.cpp
+  LevelingService.cpp
+  InventorySlot.cpp
+  InventoryService.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\inventoryservice.cpp(28): warning C4018: '<' : incompatibilité signed/unsigned
+  Inventory.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\inventory.cpp(42): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\inventory.cpp(50): warning C4309: '=' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\inventory.cpp(63): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\inventory.cpp(187): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\inventory.cpp(196): warning C4553: '==' : opérateur sans effet ; souhaitiez-vous '=' ?
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\inventory.cpp(236): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\inventory.cpp(250): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\inventory.cpp(266): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\inventory.cpp(352): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\inventory.cpp(352): warning C4309: 'argument' : troncation de valeur de constante
+  IItem.cpp
+  IAbnormality.cpp
+  HuntingZone.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creature.h(28): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creature.h(30): warning C4584: 'Creature' : la classe de base 'Entity' est déjà une classe de base de 'CreatureBase'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\entity.h(5): note: voir la déclaration de 'Entity'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturebase.h(7): note: voir la déclaration de 'CreatureBase'
+  GuildSystem.cpp
+  GeoService.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creature.h(28): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creature.h(30): warning C4584: 'Creature' : la classe de base 'Entity' est déjà une classe de base de 'CreatureBase'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\entity.h(5): note: voir la déclaration de 'Entity'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturebase.h(7): note: voir la déclaration de 'CreatureBase'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\geoservice.cpp(13): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\geoservice.cpp(14): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+  FriendSystem.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\player.hpp(14): warning C4099: 'AreaSection' : nom de type déjà rencontré avec 'class' et utilisant maintenant 'struct'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\area.h(20): note: voir la déclaration de 'AreaSection'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creature.h(28): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creature.h(30): warning C4584: 'Creature' : la classe de base 'Entity' est déjà une classe de base de 'CreatureBase'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\entity.h(5): note: voir la déclaration de 'Entity'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturebase.h(7): note: voir la déclaration de 'CreatureBase'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creature.h(28): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\friendsystem.cpp(25): warning C4309: 'argument' : troncation de valeur de constante
+  FileStream.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\filestream.cpp(18): warning C4244: '=' : conversion de 'std::streamoff' en 'unsigned int', perte possible de données
+  EquipmentSet.cpp
+  EntityService.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\entityservice.cpp(33): warning C4244: '=' : conversion de 'unsigned __int64' en 'unsigned int', perte possible de données
+  Entity.cpp
+  EffectZone.cpp
+  EffectService.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\effectservice.cpp(12): warning C4244: 'initialisation' : conversion de 'std::streamoff' en 'int', perte possible de données
+  Génération de code en cours...
+  Compilation en cours...
+  EffectEngine.cpp
+  Drop.cpp
+  utils.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\crypt\utils.cpp(175): warning C4244: '=' : conversion de 'unsigned short' en 'char', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\crypt\utils.cpp(197): warning C4333: '>>' : décalage vers la droite trop important, perte de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\crypt\utils.cpp(332): warning C4244: 'return' : conversion de 'double' en 'float', perte possible de données
+  Sha.cpp
+  Session.cpp
+  CryptorKey.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\crypt\cryptorkey.cpp(7): warning C4244: '=' : conversion de 'unsigned __int64' en 'int', perte possible de données
+  Cryptor.cpp
+  CreatureBase.cpp
+  CreatureStats.cpp
+  Creature.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creature.h(28): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creature.h(30): warning C4584: 'Creature' : la classe de base 'Entity' est déjà une classe de base de 'CreatureBase'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\entity.h(5): note: voir la déclaration de 'Entity'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturebase.h(7): note: voir la déclaration de 'CreatureBase'
+  CraftingSystem.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\player.hpp(14): warning C4099: 'AreaSection' : nom de type déjà rencontré avec 'class' et utilisant maintenant 'struct'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\area.h(20): note: voir la déclaration de 'AreaSection'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\craftingsystem.cpp(38): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\craftingsystem.cpp(38): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\craftingsystem.cpp(50): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\craftingsystem.cpp(50): warning C4309: 'argument' : troncation de valeur de constante
+  Client.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\opcodes.hpp(12): warning C4114: même qualificateur de type utilisé plusieurs fois
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\opcodes.hpp(14): warning C4114: même qualificateur de type utilisé plusieurs fois
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\opcodes.hpp(17): warning C4114: même qualificateur de type utilisé plusieurs fois
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\creaturestats.h(13): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\effectengine.h(7): warning C4099: 'CreatureStats' : nom de type déjà rencontré avec 'struct' et utilisant maintenant 'class'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\statsservice.h(6): note: voir la déclaration de 'CreatureStats'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\client.cpp(52): warning C4553: '==' : opérateur sans effet ; souhaitiez-vous '=' ?
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\client.cpp(61): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\client.cpp(168): warning C4114: même qualificateur de type utilisé plusieurs fois
+  ChatSystem.cpp
+  BroadcastService.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\broadcastservice.cpp(130): warning C4293: '<<' : compteur de décalage négatif ou trop important, comportement non défini
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\broadcastservice.cpp(273): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\broadcastservice.cpp(273): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\broadcastservice.cpp(313): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\broadcastservice.cpp(313): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\broadcastservice.cpp(338): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\broadcastservice.cpp(338): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\broadcastservice.cpp(482): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\broadcastservice.cpp(482): warning C4309: 'argument' : troncation de valeur de constante
+  AreaEffect.cpp
+  Area.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\player.hpp(14): warning C4099: 'AreaSection' : nom de type déjà rencontré avec 'class' et utilisant maintenant 'struct'
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\area.h(20): note: voir la déclaration de 'AreaSection'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\area.cpp(35): warning C4150: suppression de pointeur vers type incomplet 'WorldObject' ; aucun destructeur appelé
+  c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\area.h(13): note: voir la déclaration de 'WorldObject'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\area.cpp(295): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\area.cpp(295): warning C4309: 'argument' : troncation de valeur de constante
+  Account.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\account.cpp(95): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\account.cpp(95): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\account.cpp(314): warning C4305: 'argument' : troncation de 'OpCode' à 'short'
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\account.cpp(314): warning C4309: 'argument' : troncation de valeur de constante
+  CombatManager.cpp
+  AbnormalityEffect.cpp
+  AbnormalitiesService.cpp
+c:\users\luciole\desktop\tera_emulator_v1xxx\tera emulator v1xxx vs project [src]\tera_c++_emulator_1\abnormalitiesservice.cpp(22): warning C4018: '<' : incompatibilité signed/unsigned
+  Génération de code en cours...
+  TERA_C++_EMULATOR_1.vcxproj -> C:\Users\Luciole\Desktop\Tera_Emulator_v1xxx\Tera Emulator v1xxx VS Project [SRC]\Debug\TERA_C++_EMULATOR_1.exe
+  TERA_C++_EMULATOR_1.vcxproj -> C:\Users\Luciole\Desktop\Tera_Emulator_v1xxx\Tera Emulator v1xxx VS Project [SRC]\Debug\TERA_C++_EMULATOR_1.pdb (Full PDB)

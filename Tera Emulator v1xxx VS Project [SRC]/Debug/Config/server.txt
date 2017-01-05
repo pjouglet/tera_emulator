@@ -1,0 +1,9 @@
+127.0.0.1
+10001
+100
+127.0.0.1
+root
+
+tera_cpp
+autostart = 1
+playerStartContinentId = 5

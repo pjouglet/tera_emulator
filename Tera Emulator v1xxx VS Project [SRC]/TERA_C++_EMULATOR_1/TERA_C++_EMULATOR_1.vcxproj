@@ -1,0 +1,498 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseDebugSymbols|Win32">
+      <Configuration>ReleaseDebugSymbols</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseDebugSymbols|x64">
+      <Configuration>ReleaseDebugSymbols</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AB2072F0-F2E0-48D8-B2A8-4A088D9F0F78}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>TERA_C_EMULATOR_1</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDebugSymbols|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDebugSymbols|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDebugSymbols|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDebugSymbols|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\boost;C:\Users\Narcis\Documents\Visual Studio 2015\Projects\TERA_C++_EMULATOR_1\TERA_C++_EMULATOR_1\mysql\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Documents\Documents\C++\lib\lib;C:\Users\Narcis\Documents\Visual Studio 2015\Projects\TERA_C++_EMULATOR_1\TERA_C++_EMULATOR_1\mysql\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Users\Narcis\Documents\Visual Studio 2015\Projects\TERA_C++_EMULATOR_1\TERA_C++_EMULATOR_1\mysql\include;C:\boost;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Documents\Documents\C++\lib\lib;C:\Users\Narcis\Documents\Visual Studio 2015\Projects\TERA_C++_EMULATOR_1\TERA_C++_EMULATOR_1\mysql\cmysql\lib\vs12;C:\Users\Narcis\Documents\Visual Studio 2015\Projects\TERA_C++_EMULATOR_1\TERA_C++_EMULATOR_1\mysql\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDebugSymbols|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Users\Narcis\Documents\Visual Studio 2015\Projects\TERA_C++_EMULATOR_1\TERA_C++_EMULATOR_1\mysql\include;C:\Users\Narcis\Documents\Visual Studio 2015\Projects\TERA_C++_EMULATOR_1\TERA_C++_EMULATOR_1\poco\include;C:\boost;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Documents\Documents\C++\lib\lib;C:\Users\Narcis\Documents\Visual Studio 2015\Projects\TERA_C++_EMULATOR_1\TERA_C++_EMULATOR_1\mysql\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDebugSymbols|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>D:\Documents\Documents\C++\lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>mysqlcppconn.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>D:\Documents\Documents\C++\lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;PLAYERSERVICE_DEBUG;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <DisableSpecificWarnings>4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>D:\Documents\Documents\C++\lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>mysqlclient.lib;mysqlcppconn.lib;mysqlcppconn-static.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDebugSymbols|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <DisableSpecificWarnings>4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>D:\Documents\Documents\C++\lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>mysqlcppconn-static.lib;mysqlcppconn.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>D:\Documents\Documents\C++\lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDebugSymbols|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>D:\Documents\Documents\C++\lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AbnormalitiesService.cpp" />
+    <ClCompile Include="AbnormalityEffect.cpp" />
+    <ClCompile Include="CombatManager.cpp" />
+    <ClCompile Include="Account.cpp" />
+    <ClCompile Include="Area.cpp" />
+    <ClCompile Include="AreaEffect.cpp" />
+    <ClCompile Include="BroadcastService.cpp" />
+    <ClCompile Include="ChatSystem.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="CraftingSystem.cpp" />
+    <ClCompile Include="Creature.cpp" />
+    <ClCompile Include="CreatureStats.cpp" />
+    <ClCompile Include="CreatureBase.cpp" />
+    <ClCompile Include="Crypt\Cryptor.cpp" />
+    <ClCompile Include="Crypt\CryptorKey.cpp" />
+    <ClCompile Include="Crypt\Session.cpp" />
+    <ClCompile Include="Crypt\Sha.cpp" />
+    <ClCompile Include="Crypt\utils.cpp" />
+    <ClCompile Include="Drop.cpp" />
+    <ClCompile Include="EffectEngine.cpp" />
+    <ClCompile Include="EffectService.cpp" />
+    <ClCompile Include="EffectZone.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="EntityService.cpp" />
+    <ClCompile Include="EquipmentSet.cpp" />
+    <ClCompile Include="FileStream.cpp" />
+    <ClCompile Include="FriendSystem.cpp" />
+    <ClCompile Include="GeoService.cpp" />
+    <ClCompile Include="GuildSystem.cpp" />
+    <ClCompile Include="HuntingZone.cpp" />
+    <ClCompile Include="IAbnormality.cpp" />
+    <ClCompile Include="IItem.cpp" />
+    <ClCompile Include="Inventory.cpp" />
+    <ClCompile Include="InventoryService.cpp" />
+    <ClCompile Include="InventorySlot.cpp" />
+    <ClCompile Include="LevelingService.cpp" />
+    <ClCompile Include="Listener.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MessagingSystem.cpp" />
+    <ClCompile Include="MobStats.cpp" />
+    <ClCompile Include="mysql\MySqlDriver.cpp" />
+    <ClCompile Include="mysql\SQLStream.cpp" />
+    <ClCompile Include="OpCodes.cpp" />
+    <ClCompile Include="Passivity.cpp" />
+    <ClCompile Include="PassivityService.cpp" />
+    <ClCompile Include="PassivitySystem.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayerService.cpp" />
+    <ClCompile Include="PlayerStructs.cpp" />
+    <ClCompile Include="Projectile.cpp" />
+    <ClCompile Include="ProjectileSkill.cpp" />
+    <ClCompile Include="ProjectileStructs.cpp" />
+    <ClCompile Include="RCancelDeletePlayer.cpp" />
+    <ClCompile Include="RCancelSkill.cpp" />
+    <ClCompile Include="RCanCreatePlayer.cpp" />
+    <ClCompile Include="RChangeUserLobbySlotId.cpp" />
+    <ClCompile Include="RChat.cpp" />
+    <ClCompile Include="RCheckUsername.cpp" />
+    <ClCompile Include="RCreatePlayer.cpp" />
+    <ClCompile Include="2DRectangle.cpp" />
+    <ClCompile Include="RDeletePlayer.cpp" />
+    <ClCompile Include="RDelItem.cpp" />
+    <ClCompile Include="RDungeonClearCountList.cpp" />
+    <ClCompile Include="RDungeonCoolTImeList.cpp" />
+    <ClCompile Include="REquipItem.cpp" />
+    <ClCompile Include="REventGuide.cpp" />
+    <ClCompile Include="RExit.cpp" />
+    <ClCompile Include="RGetPlayerGuildLogo.cpp" />
+    <ClCompile Include="RGetPlayerList.cpp" />
+    <ClCompile Include="RGuardPkPolicy.cpp" />
+    <ClCompile Include="RHardwareInfo.cpp" />
+    <ClCompile Include="RInventoryAutoSort.cpp" />
+    <ClCompile Include="RLoadTopoFin.cpp" />
+    <ClCompile Include="RMoveItemPos.cpp" />
+    <ClCompile Include="RMovePlayer.cpp" />
+    <ClCompile Include="RNotifyLocationInAction.cpp" />
+    <ClCompile Include="RNpcGuildList.cpp" />
+    <ClCompile Include="RRaignInfo.cpp" />
+    <ClCompile Include="RRequestContract.cpp" />
+    <ClCompile Include="RRequestGameStatPing.cpp" />
+    <ClCompile Include="RRequestInstoreProductList.cpp" />
+    <ClCompile Include="RRequestUserItemLevelInfo.cpp" />
+    <ClCompile Include="RReqVipSystemInfo.cpp" />
+    <ClCompile Include="RReturnToLobby.cpp" />
+    <ClCompile Include="RSavePlayerAccountSettings.cpp" />
+    <ClCompile Include="RSaveUserSettings.cpp" />
+    <ClCompile Include="RSelectPlayer.cpp" />
+    <ClCompile Include="RServerTime.cpp" />
+    <ClCompile Include="RShowInven.cpp" />
+    <ClCompile Include="RShowItemToolTipEx.cpp" />
+    <ClCompile Include="RSkillLearnList.cpp" />
+    <ClCompile Include="RSimpleTipRepeatCheck.cpp" />
+    <ClCompile Include="RSkillLearnRequest.cpp" />
+    <ClCompile Include="RStartSkill.cpp" />
+    <ClCompile Include="RStrEvaluateList.cpp" />
+    <ClCompile Include="RTradeBrokerHighestItemLevel.cpp" />
+    <ClCompile Include="RTryLootDropItem.cpp" />
+    <ClCompile Include="RUnequipItem.cpp" />
+    <ClCompile Include="RUnionSummary.cpp" />
+    <ClCompile Include="RUpdateContentsPlayTime.cpp" />
+    <ClCompile Include="RVisitNewSection.cpp" />
+    <ClCompile Include="SCheckVersion.cpp" />
+    <ClCompile Include="SendPacket.cpp" />
+    <ClCompile Include="ServerTimer.cpp" />
+    <ClCompile Include="Skill.cpp" />
+    <ClCompile Include="SkillService.cpp" />
+    <ClCompile Include="SkillStructs.cpp" />
+    <ClCompile Include="SLoginArbiter.cpp" />
+    <ClCompile Include="SSetVisibleRange.cpp" />
+    <ClCompile Include="StatsService.cpp" />
+    <ClCompile Include="Stream.cpp" />
+    <ClCompile Include="TeraPacket.cpp" />
+    <ClCompile Include="Server.cpp" />
+    <ClCompile Include="ServerUtils.cpp" />
+    <ClCompile Include="ToSendPacket.cpp" />
+    <ClCompile Include="UnionSystem.cpp" />
+    <ClCompile Include="WorldObject.cpp" />
+    <ClCompile Include="WorldPosition.cpp" />
+    <ClCompile Include="WorldSystem.cpp" />
+    <ClCompile Include="XMLDocumentParser.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AbnormalitiesService.h" />
+    <ClInclude Include="AbnormalityEffect.h" />
+    <ClInclude Include="AbnormalityEnums.h" />
+    <ClInclude Include="CombatManager.h" />
+    <ClInclude Include="Account.hpp" />
+    <ClInclude Include="Area.h" />
+    <ClInclude Include="AreaEffect.h" />
+    <ClInclude Include="BroadcastService.h" />
+    <ClInclude Include="ChatEnum.h" />
+    <ClInclude Include="ChatSystem.h" />
+    <ClInclude Include="Client.hpp" />
+    <ClInclude Include="Climb.h" />
+    <ClInclude Include="CraftingSystem.h" />
+    <ClInclude Include="Creature.h" />
+    <ClInclude Include="CreatureEnum.h" />
+    <ClInclude Include="CreatureStats.h" />
+    <ClInclude Include="CreatureBase.h" />
+    <ClInclude Include="Crypt\data_type.hpp" />
+    <ClInclude Include="Crypt\TeraCrypt.hpp" />
+    <ClInclude Include="Crypt\utils.hpp" />
+    <ClInclude Include="Drop.h" />
+    <ClInclude Include="EffectEngine.h" />
+    <ClInclude Include="EffectService.h" />
+    <ClInclude Include="EffectZone.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="EntityService.h" />
+    <ClInclude Include="EquipmentSet.h" />
+    <ClInclude Include="FileStream.h" />
+    <ClInclude Include="FriendSystem.h" />
+    <ClInclude Include="GeoService.h" />
+    <ClInclude Include="GuildSystem.h" />
+    <ClInclude Include="HuntingZone.h" />
+    <ClInclude Include="IAbnormality.h" />
+    <ClInclude Include="IItem.h" />
+    <ClInclude Include="Inventory.h" />
+    <ClInclude Include="InventoryService.h" />
+    <ClInclude Include="InventorySlot.h" />
+    <ClInclude Include="ItemEnum.h" />
+    <ClInclude Include="LevelingService.h" />
+    <ClInclude Include="Listener.hpp" />
+    <ClInclude Include="MessagingSystem.h" />
+    <ClInclude Include="MobStats.h" />
+    <ClInclude Include="mysql\MySqlDriver.h" />
+    <ClInclude Include="mysql\SQLStream.h" />
+    <ClInclude Include="OpCodes.hpp" />
+    <ClInclude Include="OpCodesEnum.h" />
+    <ClInclude Include="Passivity.h" />
+    <ClInclude Include="PassivityService.h" />
+    <ClInclude Include="PassivitySystem.h" />
+    <ClInclude Include="Player.hpp" />
+    <ClInclude Include="PlayerEnums.h" />
+    <ClInclude Include="PlayerService.h" />
+    <ClInclude Include="PlayerStructs.h" />
+    <ClInclude Include="Projectile.h" />
+    <ClInclude Include="ProjectileSkill.h" />
+    <ClInclude Include="ProjectileStructs.h" />
+    <ClInclude Include="RCancelDeletePlayer.h" />
+    <ClInclude Include="RCancelSkill.h" />
+    <ClInclude Include="RCanCreatePlayer.h" />
+    <ClInclude Include="RChangeUserLobbySlotId.h" />
+    <ClInclude Include="RChat.h" />
+    <ClInclude Include="RCheckUsername.h" />
+    <ClInclude Include="RCreatePlayer.h" />
+    <ClInclude Include="2DRectangle.h" />
+    <ClInclude Include="RDeletePlayer.h" />
+    <ClInclude Include="RDelItem.h" />
+    <ClInclude Include="RDungeonClearCountList.h" />
+    <ClInclude Include="RDungeonCoolTImeList.h" />
+    <ClInclude Include="REquipItem.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="REventGuide.h" />
+    <ClInclude Include="RExit.h" />
+    <ClInclude Include="RGetPlayerGuildLogo.h" />
+    <ClInclude Include="RGetPlayerList.h" />
+    <ClInclude Include="RGuardPkPolicy.h" />
+    <ClInclude Include="RHardwareInfo.h" />
+    <ClInclude Include="RInventoryAutoSort.h" />
+    <ClInclude Include="RLoadTopoFin.h" />
+    <ClInclude Include="RMoveItemPos.h" />
+    <ClInclude Include="RMovePlayer.h" />
+    <ClInclude Include="RNotifyLocationInAction.h" />
+    <ClInclude Include="RNpcGuildList.h" />
+    <ClInclude Include="RRaignInfo.h" />
+    <ClInclude Include="RRequestContract.h" />
+    <ClInclude Include="RRequestGameStatPing.h" />
+    <ClInclude Include="RRequestInstoreProductList.h" />
+    <ClInclude Include="RRequestUserItemLevelInfo.h" />
+    <ClInclude Include="RReqVipSystemInfo.h" />
+    <ClInclude Include="RReturnToLobby.h" />
+    <ClInclude Include="RSavePlayerAccountSettings.h" />
+    <ClInclude Include="RSaveUserSettings.h" />
+    <ClInclude Include="RSelectPlayer.h" />
+    <ClInclude Include="RServerTime.h" />
+    <ClInclude Include="RShowInven.h" />
+    <ClInclude Include="RShowItemToolTipEx.h" />
+    <ClInclude Include="RSkillLearnList.h" />
+    <ClInclude Include="RSimpleTipRepeatCheck.h" />
+    <ClInclude Include="RSkillLearnRequest.h" />
+    <ClInclude Include="RStartSkill.h" />
+    <ClInclude Include="RStrEvaluateList.h" />
+    <ClInclude Include="RTradeBrokerHighestItemLevel.h" />
+    <ClInclude Include="RTryLootDropItem.h" />
+    <ClInclude Include="RUnequipItem.h" />
+    <ClInclude Include="RUnionSummary.h" />
+    <ClInclude Include="RUpdateContentsPlayTime.h" />
+    <ClInclude Include="RVisitNewSection.h" />
+    <ClInclude Include="SCheckVersion.h" />
+    <ClInclude Include="SendPacket.h" />
+    <ClInclude Include="ServerTimer.h" />
+    <ClInclude Include="Skill.h" />
+    <ClInclude Include="SkillEnums.h" />
+    <ClInclude Include="SkillService.h" />
+    <ClInclude Include="SkillStructs.h" />
+    <ClInclude Include="SLoginArbiter.h" />
+    <ClInclude Include="SSetVisibleRange.h" />
+    <ClInclude Include="StatsService.h" />
+    <ClInclude Include="Stream.h" />
+    <ClInclude Include="TeraPacket.hpp" />
+    <ClInclude Include="Server.hpp" />
+    <ClInclude Include="ServerUtils.hpp" />
+    <ClInclude Include="ToSendPacket.h" />
+    <ClInclude Include="UnionSystem.h" />
+    <ClInclude Include="Vector3.hpp" />
+    <ClInclude Include="WorldObject.h" />
+    <ClInclude Include="WorldPosition.h" />
+    <ClInclude Include="WorldSystem.h" />
+    <ClInclude Include="XMLDocumentParser.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TERA_C++_EMULATOR_11.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\..\Desktop\icon.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

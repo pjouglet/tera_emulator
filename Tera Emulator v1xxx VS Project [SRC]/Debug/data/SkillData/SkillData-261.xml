@@ -1,0 +1,2615 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SkillData huntingZoneId="248">
+  <Skill id="6026" name="유인계 버프" type="notimeline" category="0" templateId="1200" nextSkill="0" timeRate="1.1" attackRange="100.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <TargetingList>
+      <Targeting id="-1" time="0" method="normal" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="ally" maxHeight="0.0" maxCount="1" maxRadius="500.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="0.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.0">
+              <AbnormalityOnCommon id="50" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="1.5" miniRate="0.0" />
+            <HitEffect type="none" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="6027" name="보조계 버프" type="notimeline" category="0" templateId="1200" nextSkill="0" timeRate="1.1" attackRange="100.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="Human_M_ANI.Anim.Human_M_Class01_Anim" totalAtk="0.000000">
+    <Property />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <TargetingList>
+      <Targeting id="-1" time="0" method="normal" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="ally" maxHeight="0.0" maxCount="1" maxRadius="500.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="0.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.0">
+              <AbnormalityOnCommon id="51" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="1.5" miniRate="0.0" />
+            <HitEffect type="none" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="6028" name="데미지계 버프" type="notimeline" category="0" templateId="1200" nextSkill="0" timeRate="1.1" attackRange="100.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="Human_M_ANI.Anim.Human_M_Class01_Anim" totalAtk="0.000000">
+    <Property />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <TargetingList>
+      <Targeting id="-1" time="0" method="normal" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="ally" maxHeight="0.0" maxCount="1" maxRadius="500.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="0.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.0">
+              <AbnormalityOnCommon id="52" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="1.5" miniRate="0.0" />
+            <HitEffect type="none" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="6026" name="유인계 버프" type="notimeline" category="0" templateId="1201" nextSkill="0" timeRate="1.1" attackRange="100.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <TargetingList>
+      <Targeting id="-1" time="0" method="normal" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="ally" maxHeight="0.0" maxCount="1" maxRadius="500.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="0.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.0">
+              <AbnormalityOnCommon id="50" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="1.5" miniRate="0.0" />
+            <HitEffect type="none" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="6027" name="보조계 버프" type="notimeline" category="0" templateId="1201" nextSkill="0" timeRate="1.1" attackRange="100.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="Human_M_ANI.Anim.Human_M_Class01_Anim" totalAtk="0.000000">
+    <Property />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <TargetingList>
+      <Targeting id="-1" time="0" method="normal" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="ally" maxHeight="0.0" maxCount="1" maxRadius="500.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="0.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.0">
+              <AbnormalityOnCommon id="51" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="1.5" miniRate="0.0" />
+            <HitEffect type="none" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="6028" name="데미지계 버프" type="notimeline" category="0" templateId="1201" nextSkill="0" timeRate="1.1" attackRange="100.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="Human_M_ANI.Anim.Human_M_Class01_Anim" totalAtk="0.000000">
+    <Property />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <TargetingList>
+      <Targeting id="-1" time="0" method="normal" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="ally" maxHeight="0.0" maxCount="1" maxRadius="500.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="0.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.0">
+              <AbnormalityOnCommon id="52" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="1.5" miniRate="0.0" />
+            <HitEffect type="none" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="6026" name="유인계 버프" type="notimeline" category="0" templateId="1202" nextSkill="0" timeRate="1.1" attackRange="100.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <TargetingList>
+      <Targeting id="-1" time="0" method="normal" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="ally" maxHeight="0.0" maxCount="1" maxRadius="500.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="0.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.0">
+              <AbnormalityOnCommon id="50" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="1.5" miniRate="0.0" />
+            <HitEffect type="none" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="6027" name="보조계 버프" type="notimeline" category="0" templateId="1202" nextSkill="0" timeRate="1.1" attackRange="100.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="Human_M_ANI.Anim.Human_M_Class01_Anim" totalAtk="0.000000">
+    <Property />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <TargetingList>
+      <Targeting id="-1" time="0" method="normal" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="ally" maxHeight="0.0" maxCount="1" maxRadius="500.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="0.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.0">
+              <AbnormalityOnCommon id="51" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="1.5" miniRate="0.0" />
+            <HitEffect type="none" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="6028" name="데미지계 버프" type="notimeline" category="0" templateId="1202" nextSkill="0" timeRate="1.1" attackRange="100.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="Human_M_ANI.Anim.Human_M_Class01_Anim" totalAtk="0.000000">
+    <Property />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <TargetingList>
+      <Targeting id="-1" time="0" method="normal" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="ally" maxHeight="0.0" maxCount="1" maxRadius="500.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="0.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.0">
+              <AbnormalityOnCommon id="52" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="1.5" miniRate="0.0" />
+            <HitEffect type="none" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="6026" name="유인계 버프" type="notimeline" category="0" templateId="1203" nextSkill="0" timeRate="1.1" attackRange="100.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <TargetingList>
+      <Targeting id="-1" time="0" method="normal" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="ally" maxHeight="0.0" maxCount="1" maxRadius="500.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="0.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.0">
+              <AbnormalityOnCommon id="50" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="1.5" miniRate="0.0" />
+            <HitEffect type="none" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="6027" name="보조계 버프" type="notimeline" category="0" templateId="1203" nextSkill="0" timeRate="1.1" attackRange="100.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="Human_M_ANI.Anim.Human_M_Class01_Anim" totalAtk="0.000000">
+    <Property />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <TargetingList>
+      <Targeting id="-1" time="0" method="normal" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="ally" maxHeight="0.0" maxCount="1" maxRadius="500.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="0.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.0">
+              <AbnormalityOnCommon id="51" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="1.5" miniRate="0.0" />
+            <HitEffect type="none" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="6028" name="데미지계 버프" type="notimeline" category="0" templateId="1203" nextSkill="0" timeRate="1.1" attackRange="100.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="Human_M_ANI.Anim.Human_M_Class01_Anim" totalAtk="0.000000">
+    <Property />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <TargetingList>
+      <Targeting id="-1" time="0" method="normal" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="ally" maxHeight="0.0" maxCount="1" maxRadius="500.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="0.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.0">
+              <AbnormalityOnCommon id="52" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="1.5" miniRate="0.0" />
+            <HitEffect type="none" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="6029" name="컨디션 회복" type="notimeline" category="0" templateId="1300" nextSkill="0" timeRate="1.1" attackRange="100.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="Human_M_ANI.Anim.Human_M_Class01_Anim" totalAtk="0.000000">
+    <Property />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <TargetingList>
+      <Targeting id="-1" time="0" method="normal" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="ally" maxHeight="0.0" maxCount="1" maxRadius="500.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="0.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.0">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="1.5" miniRate="0.0" />
+            <HitEffect type="onlyDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="6029" name="컨디션 회복" type="notimeline" category="0" templateId="1301" nextSkill="0" timeRate="1.1" attackRange="100.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="Human_M_ANI.Anim.Human_M_Class01_Anim" totalAtk="0.000000">
+    <Property />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <TargetingList>
+      <Targeting id="-1" time="0" method="normal" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="ally" maxHeight="0.0" maxCount="1" maxRadius="500.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="0.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.0">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="1.5" miniRate="0.0" />
+            <HitEffect type="onlyDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="6029" name="컨디션 회복" type="notimeline" category="0" templateId="1302" nextSkill="0" timeRate="1.1" attackRange="100.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="Human_M_ANI.Anim.Human_M_Class01_Anim" totalAtk="0.000000">
+    <Property />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <TargetingList>
+      <Targeting id="-1" time="0" method="normal" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="ally" maxHeight="0.0" maxCount="1" maxRadius="500.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="0.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.0">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="1.5" miniRate="0.0" />
+            <HitEffect type="onlyDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="6029" name="컨디션 회복" type="notimeline" category="0" templateId="1303" nextSkill="0" timeRate="1.1" attackRange="100.000000" autoUse="False" changeDirToCenter="False" needWeapon="False" pushtarget="pass" returnAnimName="" returnAnimSet="Human_M_ANI.Anim.Human_M_Class01_Anim" totalAtk="0.000000">
+    <Property />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
+    </Action>
+    <TargetingList>
+      <Targeting id="-1" time="0" method="normal" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="ally" maxHeight="0.0" maxCount="1" maxRadius="500.0" offsetDistance="0.0" pierceDepth="1" minHeight="0.0" rangeAngle="0.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.0">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="1.5" miniRate="0.0" />
+            <HitEffect type="onlyDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0">
+      <TargetingList>
+        <Targeting>
+          <AreaList>
+            <Area maxCount="10">
+              <Effect atk="0.0">
+                <HpDiff value="0" />
+                <MpDiff value="0" />
+              </Effect>
+            </Area>
+          </AreaList>
+        </Targeting>
+      </TargetingList>
+    </Projectile>
+  </Skill>
+  <Skill id="1101" name="군인졸병(하이엘프 여 궁수)_Normal Shot" type="instance" category="9012" templateId="1700" nextSkill="0" parentId="51059000" timeRate="1.0" attackRange="300.000000" attackRangeMax="0.000000" autoUse="True" changeDirToCenter="True" needWeapon="True" pushtarget="pass" returnAnimName="" returnAnimSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" totalAtk="14786745.9990679">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="1101" createTime="150.0" detachTime="150.0" flyingDuration="200.0" startSkill="1101" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="285" />
+      <StageList>
+        <Stage changeDirToTarget="True" movable="False">
+          <Property animControlType="normal" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="arrowshot" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="550" rearCancelStartTime="350" />
+    </Action>
+    <TargetingList>
+      <Targeting id="1" type="none" time="350" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="29.0" maxCount="1" maxRadius="375.0" offsetDistance="10.0" pierceDepth="1" minHeight="29.0" rangeAngle="0.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.5">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="20.0" miniRate="30.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="2" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1103" name="군인졸병(하이엘프 여 궁수)_Arrow Shower_Shot_1단계" type="instance" category="9012" templateId="1700" nextSkill="0" parentId="51059000" timeRate="1.0" attackRange="360.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="True" needWeapon="True" pushtarget="pass" returnAnimName="" returnAnimSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" totalAtk="0">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="1103" createTime="1890.0" detachTime="1890.0" flyingDuration="200.0" startSkill="1103" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="550" />
+      <StageList>
+        <Stage changeDirToTarget="True" movable="False">
+          <Property animControlType="normal" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="arrowShowerStart" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="chargeArrowLoop" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="True" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="arrowShowerShot" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="550" />
+    </Action>
+    <TargetingList>
+      <Targeting id="1" type="none" time="2090" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="23.0" maxCount="3" maxRadius="375.0" offsetDistance="0.0" pierceDepth="3" minHeight="23.0" rangeAngle="30.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.5">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="1.5" miniRate="1.5" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1104" name="군인졸병(하이엘프 여 궁수)_Arrow Shower_Shot_2단계" type="instance" category="9012" templateId="1700" nextSkill="0" parentId="51059000" timeRate="1.0" attackRange="360.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="True" needWeapon="True" pushtarget="pass" returnAnimName="" returnAnimSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" totalAtk="0">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="1104" createTime="2890.0" detachTime="2890.0" flyingDuration="200.0" startSkill="1104" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="550" />
+      <StageList>
+        <Stage changeDirToTarget="True" movable="False">
+          <Property animControlType="normal" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="arrowShowerStart" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="1833" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="chargeArrowLoop" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="True" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="arrowShowerShot" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="550" />
+    </Action>
+    <TargetingList>
+      <Targeting id="1" type="none" time="3090" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="23.0" maxCount="3" maxRadius="375.0" offsetDistance="0.0" pierceDepth="3" minHeight="23.0" rangeAngle="30.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.5">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="1.5" miniRate="1.5" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1105" name="군인졸병(하이엘프 여 궁수)_Arrow Shower_Shot_3단계" type="instance" category="9012" templateId="1700" nextSkill="0" parentId="51059000" timeRate="1.0" attackRange="360.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="True" needWeapon="True" pushtarget="pass" returnAnimName="" returnAnimSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" totalAtk="0">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="1105" createTime="3890.0" detachTime="3890.0" flyingDuration="200.0" startSkill="1105" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="550" />
+      <StageList>
+        <Stage changeDirToTarget="True" movable="False">
+          <Property animControlType="normal" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="arrowShowerStart" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="2833" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="chargeArrowLoop" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="True" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="arrowShowerShot" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="550" />
+    </Action>
+    <TargetingList>
+      <Targeting id="1" type="none" time="4090" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="23.0" maxCount="3" maxRadius="375.0" offsetDistance="0.0" pierceDepth="3" minHeight="23.0" rangeAngle="30.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.5">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="1.5" miniRate="1.5" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1106" name="군인졸병(하이엘프 여 궁수)_Charge Arrow_Shot_1단계" type="instance" category="9012" templateId="1700" nextSkill="0" parentId="51059000" timeRate="1.0" attackRange="360.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="True" needWeapon="True" pushtarget="pass" returnAnimName="" returnAnimSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" totalAtk="0">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="1106" createTime="2890.0" detachTime="2890.0" flyingDuration="200.0" startSkill="1106" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="550" />
+      <StageList>
+        <Stage changeDirToTarget="True" movable="False">
+          <Property animControlType="normal" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="chargeArrowStart" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="chargeArrowLoop" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="True" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="chargeArrowshot" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="550" />
+    </Action>
+    <TargetingList>
+      <Targeting id="1" type="none" time="3090" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="23.0" maxCount="1" maxRadius="375.0" offsetDistance="0.0" pierceDepth="1" minHeight="23.0" rangeAngle="0.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.5">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="1.5" miniRate="1.5" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1107" name="군인졸병(하이엘프 여 궁수)_Charge Arrow_Shot_2단계" type="instance" category="9012" templateId="1700" nextSkill="0" parentId="51059000" timeRate="1.0" attackRange="360.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="True" needWeapon="True" pushtarget="pass" returnAnimName="" returnAnimSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" totalAtk="0">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="1107" createTime="3890.0" detachTime="3890.0" flyingDuration="200.0" startSkill="1107" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="550" />
+      <StageList>
+        <Stage changeDirToTarget="True" movable="False">
+          <Property animControlType="normal" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="chargeArrowStart" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="1833" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="chargeArrowLoop" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="True" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="chargeArrowshot" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="550" />
+    </Action>
+    <TargetingList>
+      <Targeting id="1" type="none" time="4090" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="23.0" maxCount="1" maxRadius="375.0" offsetDistance="0.0" pierceDepth="1" minHeight="23.0" rangeAngle="0.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.5">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="1.5" miniRate="1.5" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1108" name="군인졸병(하이엘프 여 궁수)_Charge Arrow_Shot_3단계" type="instance" category="9012" templateId="1700" nextSkill="0" parentId="51059000" timeRate="1.0" attackRange="360.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="True" needWeapon="True" pushtarget="pass" returnAnimName="" returnAnimSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" totalAtk="0">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="1108" createTime="4890.0" detachTime="4890.0" flyingDuration="200.0" startSkill="1108" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="550" />
+      <StageList>
+        <Stage changeDirToTarget="True" movable="False">
+          <Property animControlType="normal" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="chargeArrowStart" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="2833" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="chargeArrowLoop" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="True" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="chargeArrowshot" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="550" />
+    </Action>
+    <TargetingList>
+      <Targeting id="1" type="none" time="5090" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="23.0" maxCount="1" maxRadius="375.0" offsetDistance="0.0" pierceDepth="1" minHeight="23.0" rangeAngle="0.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.5">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="1.5" miniRate="1.5" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1109" name="군인졸병(하이엘프 여 궁수)_Piercing Arrow_Shot_1단계" type="instance" category="9012" templateId="1700" nextSkill="0" parentId="51059000" timeRate="1.0" attackRange="360.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="True" needWeapon="True" pushtarget="pass" returnAnimName="" returnAnimSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" totalAtk="0">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="1109" createTime="2890.0" detachTime="2890.0" flyingDuration="200.0" startSkill="1109" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="550" />
+      <StageList>
+        <Stage changeDirToTarget="True" movable="False">
+          <Property animControlType="normal" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="throughArrowStart" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="1066" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="throughArrowLoop" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="True" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="throughArrowShot" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="550" />
+    </Action>
+    <TargetingList>
+      <Targeting id="1" type="none" time="3090" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="30.0" maxCount="1" maxRadius="375.0" offsetDistance="0.0" pierceDepth="2" minHeight="30.0" rangeAngle="0.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.5">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="30.0" miniRate="1.5" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1110" name="군인졸병(하이엘프 여 궁수)_Piercing Arrow_Shot_2단계" type="instance" category="9012" templateId="1700" nextSkill="0" parentId="51059000" timeRate="1.0" attackRange="360.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="True" needWeapon="True" pushtarget="pass" returnAnimName="" returnAnimSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" totalAtk="0">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="1110" createTime="3890.0" detachTime="3890.0" flyingDuration="200.0" startSkill="1110" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="550" />
+      <StageList>
+        <Stage changeDirToTarget="True" movable="False">
+          <Property animControlType="normal" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="throughArrowStart" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="2066" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="throughArrowLoop" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="True" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="throughArrowShot" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="550" />
+    </Action>
+    <TargetingList>
+      <Targeting id="1" type="none" time="4090" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="30.0" maxCount="1" maxRadius="375.0" offsetDistance="0.0" pierceDepth="2" minHeight="30.0" rangeAngle="0.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.5">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="30.0" miniRate="1.5" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1111" name="군인졸병(하이엘프 여 궁수)_Piercing Arrow_Shot_3단계" type="instance" category="9012" templateId="1700" nextSkill="0" parentId="51059000" timeRate="1.0" attackRange="360.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="True" needWeapon="True" pushtarget="pass" returnAnimName="" returnAnimSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" totalAtk="0">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="1111" createTime="4890.0" detachTime="4890.0" flyingDuration="200.0" startSkill="1111" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="550" />
+      <StageList>
+        <Stage changeDirToTarget="True" movable="False">
+          <Property animControlType="normal" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="throughArrowStart" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="3066" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="throughArrowLoop" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="True" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="throughArrowShot" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="550" />
+    </Action>
+    <TargetingList>
+      <Targeting id="1" type="none" time="5090" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="30.0" maxCount="1" maxRadius="375.0" offsetDistance="0.0" pierceDepth="2" minHeight="30.0" rangeAngle="0.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.5">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="30.0" miniRate="1.5" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1206" name="군인졸병(하이엘프 여 궁수)_회피" type="normal" category="" templateId="1700" nextSkill="0" parentId="51059000" timeRate="1.0" attackRange="100.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" totalAtk="0">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property animControlType="normal" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="BackDash" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="2101" name="군인졸병(하이엘프 여 궁수)_Normal Shot" type="instance" category="9012" templateId="1700" nextSkill="0" parentId="51059000" timeRate="1.0" attackRange="300.000000" attackRangeMax="0.000000" autoUse="True" changeDirToCenter="True" needWeapon="True" pushtarget="pass" returnAnimName="" returnAnimSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" totalAtk="29573491.9981359">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="1101" createTime="150.0" detachTime="150.0" flyingDuration="200.0" startSkill="1101" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="285" />
+      <StageList>
+        <Stage changeDirToTarget="True" movable="False">
+          <Property animControlType="normal" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="arrowshot" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="550" rearCancelStartTime="350" />
+    </Action>
+    <TargetingList>
+      <Targeting id="1" type="none" time="350" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="29.0" maxCount="1" maxRadius="375.0" offsetDistance="10.0" pierceDepth="1" minHeight="29.0" rangeAngle="0.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.5">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="20.0" miniRate="30.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="2" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="2103" name="군인졸병(하이엘프 여 궁수)_Arrow Shower_Shot_1단계" type="instance" category="9012" templateId="1700" nextSkill="0" parentId="51059000" timeRate="1.4" attackRange="360.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="True" needWeapon="True" pushtarget="pass" returnAnimName="" returnAnimSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" totalAtk="0">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="1103" createTime="1890.0" detachTime="1890.0" flyingDuration="200.0" startSkill="1103" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="550" />
+      <StageList>
+        <Stage changeDirToTarget="True" movable="False">
+          <Property animControlType="normal" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="arrowShowerStart" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="chargeArrowLoop" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="True" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="arrowShowerShot" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="550" />
+    </Action>
+    <TargetingList>
+      <Targeting id="1" type="none" time="2090" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="23.0" maxCount="3" maxRadius="375.0" offsetDistance="0.0" pierceDepth="3" minHeight="23.0" rangeAngle="30.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.5">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="1.5" miniRate="1.5" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="2104" name="군인졸병(하이엘프 여 궁수)_Arrow Shower_Shot_2단계" type="instance" category="9012" templateId="1700" nextSkill="0" parentId="51059000" timeRate="1.4" attackRange="360.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="True" needWeapon="True" pushtarget="pass" returnAnimName="" returnAnimSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" totalAtk="0">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="1104" createTime="2890.0" detachTime="2890.0" flyingDuration="200.0" startSkill="1104" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="550" />
+      <StageList>
+        <Stage changeDirToTarget="True" movable="False">
+          <Property animControlType="normal" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="arrowShowerStart" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="1833" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="chargeArrowLoop" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="True" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="arrowShowerShot" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="550" />
+    </Action>
+    <TargetingList>
+      <Targeting id="1" type="none" time="3090" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="23.0" maxCount="3" maxRadius="375.0" offsetDistance="0.0" pierceDepth="3" minHeight="23.0" rangeAngle="30.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.5">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="1.5" miniRate="1.5" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="2105" name="군인졸병(하이엘프 여 궁수)_Arrow Shower_Shot_3단계" type="instance" category="9012" templateId="1700" nextSkill="0" parentId="51059000" timeRate="1.4" attackRange="360.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="True" needWeapon="True" pushtarget="pass" returnAnimName="" returnAnimSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" totalAtk="0">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="1105" createTime="3890.0" detachTime="3890.0" flyingDuration="200.0" startSkill="1105" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="550" />
+      <StageList>
+        <Stage changeDirToTarget="True" movable="False">
+          <Property animControlType="normal" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="arrowShowerStart" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="2833" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="chargeArrowLoop" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="True" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="arrowShowerShot" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="550" />
+    </Action>
+    <TargetingList>
+      <Targeting id="1" type="none" time="4090" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="23.0" maxCount="3" maxRadius="375.0" offsetDistance="0.0" pierceDepth="3" minHeight="23.0" rangeAngle="30.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.5">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="1.5" miniRate="1.5" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="2106" name="군인졸병(하이엘프 여 궁수)_Charge Arrow_Shot_1단계" type="instance" category="9012" templateId="1700" nextSkill="0" parentId="51059000" timeRate="1.4" attackRange="360.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="True" needWeapon="True" pushtarget="pass" returnAnimName="" returnAnimSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" totalAtk="0">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="1106" createTime="2890.0" detachTime="2890.0" flyingDuration="200.0" startSkill="1106" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="550" />
+      <StageList>
+        <Stage changeDirToTarget="True" movable="False">
+          <Property animControlType="normal" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="chargeArrowStart" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="chargeArrowLoop" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="True" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="chargeArrowshot" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="550" />
+    </Action>
+    <TargetingList>
+      <Targeting id="1" type="none" time="3090" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="23.0" maxCount="1" maxRadius="375.0" offsetDistance="0.0" pierceDepth="1" minHeight="23.0" rangeAngle="0.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.5">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="1.5" miniRate="1.5" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="2107" name="군인졸병(하이엘프 여 궁수)_Charge Arrow_Shot_2단계" type="instance" category="9012" templateId="1700" nextSkill="0" parentId="51059000" timeRate="1.4" attackRange="360.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="True" needWeapon="True" pushtarget="pass" returnAnimName="" returnAnimSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" totalAtk="0">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="1107" createTime="3890.0" detachTime="3890.0" flyingDuration="200.0" startSkill="1107" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="550" />
+      <StageList>
+        <Stage changeDirToTarget="True" movable="False">
+          <Property animControlType="normal" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="chargeArrowStart" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="1833" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="chargeArrowLoop" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="True" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="chargeArrowshot" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="550" />
+    </Action>
+    <TargetingList>
+      <Targeting id="1" type="none" time="4090" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="23.0" maxCount="1" maxRadius="375.0" offsetDistance="0.0" pierceDepth="1" minHeight="23.0" rangeAngle="0.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.5">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="1.5" miniRate="1.5" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="2108" name="군인졸병(하이엘프 여 궁수)_Charge Arrow_Shot_3단계" type="instance" category="9012" templateId="1700" nextSkill="0" parentId="51059000" timeRate="1.4" attackRange="360.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="True" needWeapon="True" pushtarget="pass" returnAnimName="" returnAnimSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" totalAtk="0">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="1108" createTime="4890.0" detachTime="4890.0" flyingDuration="200.0" startSkill="1108" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="550" />
+      <StageList>
+        <Stage changeDirToTarget="True" movable="False">
+          <Property animControlType="normal" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="chargeArrowStart" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="2833" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="chargeArrowLoop" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="True" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="chargeArrowshot" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="550" />
+    </Action>
+    <TargetingList>
+      <Targeting id="1" type="none" time="5090" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="23.0" maxCount="1" maxRadius="375.0" offsetDistance="0.0" pierceDepth="1" minHeight="23.0" rangeAngle="0.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.5">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="1.5" miniRate="1.5" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="2109" name="군인졸병(하이엘프 여 궁수)_Piercing Arrow_Shot_1단계" type="instance" category="9012" templateId="1700" nextSkill="0" parentId="51059000" timeRate="1.4" attackRange="360.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="True" needWeapon="True" pushtarget="pass" returnAnimName="" returnAnimSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" totalAtk="0">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="1109" createTime="2890.0" detachTime="2890.0" flyingDuration="200.0" startSkill="1109" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="550" />
+      <StageList>
+        <Stage changeDirToTarget="True" movable="False">
+          <Property animControlType="normal" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="throughArrowStart" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="1066" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="throughArrowLoop" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="True" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="throughArrowShot" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="550" />
+    </Action>
+    <TargetingList>
+      <Targeting id="1" type="none" time="3090" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="30.0" maxCount="1" maxRadius="375.0" offsetDistance="0.0" pierceDepth="2" minHeight="30.0" rangeAngle="0.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.5">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="30.0" miniRate="1.5" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="2110" name="군인졸병(하이엘프 여 궁수)_Piercing Arrow_Shot_2단계" type="instance" category="9012" templateId="1700" nextSkill="0" parentId="51059000" timeRate="1.4" attackRange="360.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="True" needWeapon="True" pushtarget="pass" returnAnimName="" returnAnimSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" totalAtk="0">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="1110" createTime="3890.0" detachTime="3890.0" flyingDuration="200.0" startSkill="1110" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="550" />
+      <StageList>
+        <Stage changeDirToTarget="True" movable="False">
+          <Property animControlType="normal" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="throughArrowStart" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="2066" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="throughArrowLoop" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="True" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="throughArrowShot" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="550" />
+    </Action>
+    <TargetingList>
+      <Targeting id="1" type="none" time="4090" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="30.0" maxCount="1" maxRadius="375.0" offsetDistance="0.0" pierceDepth="2" minHeight="30.0" rangeAngle="0.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.5">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="30.0" miniRate="1.5" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="2111" name="군인졸병(하이엘프 여 궁수)_Piercing Arrow_Shot_3단계" type="instance" category="9012" templateId="1700" nextSkill="0" parentId="51059000" timeRate="1.4" attackRange="360.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="True" needWeapon="True" pushtarget="pass" returnAnimName="" returnAnimSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" totalAtk="0">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="1111" createTime="4890.0" detachTime="4890.0" flyingDuration="200.0" startSkill="1111" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="550" />
+      <StageList>
+        <Stage changeDirToTarget="True" movable="False">
+          <Property animControlType="normal" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="throughArrowStart" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="3066" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="throughArrowLoop" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="True" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="throughArrowShot" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="550" />
+    </Action>
+    <TargetingList>
+      <Targeting id="1" type="none" time="5090" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="30.0" maxCount="1" maxRadius="375.0" offsetDistance="0.0" pierceDepth="2" minHeight="30.0" rangeAngle="0.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="0.5">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="30.0" miniRate="1.5" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="2206" name="군인졸병(하이엘프 여 궁수)_회피_분노" type="normal" category="" templateId="1700" nextSkill="0" parentId="51059000" timeRate="1.4" attackRange="100.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" totalAtk="0">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="False" movable="False">
+          <Property animControlType="normal" />
+          <AnimSeq duration="0" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="BackDash" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="3000" name="군인졸병(하이엘프 여 궁수)_폭탄 던지기" type="normal" category="" templateId="1700" nextSkill="0" parentId="51059000" timeRate="1.0" attackRange="250.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="0">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal" />
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage changeDirToTarget="True" movable="False">
+          <Property animControlType="normal" />
+          <AnimSeq duration="0" animSet="Human_F_ANI.Anim.Human_F_Share_Anim" animName="Throw_Q" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList>
+      <Targeting id="-1" type="none" time="675" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="60.0" maxCount="10" maxRadius="50.0" offsetDistance="200.0" pierceDepth="1" minHeight="0.0" rangeAngle="360.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0">
+            <Effect atk="1.0">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.0" miniRate="0.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1101" name="사제 레만_징벌의 빛_Holy Shot_Cast 01" type="instance" category="9012" templateId="3000" nextSkill="0" parentId="52701000" timeRate="1.1" attackRange="250.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="True" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" totalAtk="0.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="1101" createTime="533.0" detachTime="533.0" flyingDuration="500.0" startSkill="1101" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" animName="magicShot" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="-1" type="none" time="533" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="33.3333321" maxCount="10" maxRadius="291.666656" offsetDistance="33.3333321" pierceDepth="1" minHeight="0.0" rangeAngle="5.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="1.0">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.0" miniRate="0.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1103" name="사제 레만_재생의 바람_Wide Heal_Cast 01" type="normal" category="" templateId="3000" nextSkill="0" parentId="52701000" timeRate="1.1" attackRange="350.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="True" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" totalAtk="10000000.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <HitCylinderList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="True" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" animName="healStart" animRate="1.0" blendInTime="250" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="3000" animSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" animName="healLoop" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="True" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="0" animSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" animName="healShot1" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="2000" moveCancelStartTime="-1" rearCancelStartTime="-1" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="1" type="none" time="2620" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="60.0" maxCount="5" maxRadius="200.0" offsetDistance="150.0" pierceDepth="1" minHeight="-10.0" rangeAngle="360.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="1.0">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.0" miniRate="0.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1104" name="사제 레만_치유의 바람_Concentrate Heal_Cast 01" type="normal" category="" templateId="3000" nextSkill="0" parentId="52701000" timeRate="1.1" attackRange="142.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="True" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" totalAtk="0.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="True" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" animName="healStart" animRate="2.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="0" animSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" animName="healShot1" animRate="1.0" blendInTime="0" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="600" moveCancelStartTime="-1" rearCancelStartTime="-1" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="1" type="none" time="1000" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="ally" maxHeight="60.0" maxCount="5" maxRadius="80.0" offsetDistance="62.0" pierceDepth="1" minHeight="-10.0" rangeAngle="360.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.0">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="250" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.0" miniRate="0.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1105" name="사제 레만_보호의 축복_Defence Up Bless_Cast 01" type="normal" category="" templateId="3000" nextSkill="0" parentId="52701000" timeRate="1.1" attackRange="220.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="True" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" totalAtk="0.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="True" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" animName="AttackUp" animRate="1.0" blendInTime="300" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="500" moveCancelStartTime="-1" rearCancelStartTime="-1" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="1" type="none" time="1000" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="ally" maxHeight="45.0" maxCount="15" maxRadius="150.0" offsetDistance="70.0" pierceDepth="1" minHeight="0.0" rangeAngle="360.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.0">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.0" miniRate="0.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1106" name="사제 레만_힘의 축복_Attack Up Bless_Cast 01" type="normal" category="" templateId="3000" nextSkill="0" parentId="52701000" timeRate="1.1" attackRange="220.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="True" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" totalAtk="0.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="True" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" animName="AttackUp" animRate="1.0" blendInTime="300" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="500" moveCancelStartTime="-1" rearCancelStartTime="-1" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="1" type="none" time="1000" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="ally" maxHeight="45.0" maxCount="15" maxRadius="150.0" offsetDistance="70.0" pierceDepth="1" minHeight="0.0" rangeAngle="360.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.0">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.0" miniRate="0.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1107" name="사제 레만_각성_Recovery_Cast 01" type="normal" category="" templateId="3000" nextSkill="0" parentId="52701000" timeRate="1.1" attackRange="220.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="True" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" totalAtk="0.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="True" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" animName="purify" animRate="1.0" blendInTime="250" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="500" moveCancelStartTime="-1" rearCancelStartTime="-1" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="1" type="none" time="1000" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="ally" maxHeight="45.0" maxCount="15" maxRadius="150.0" offsetDistance="70.0" pierceDepth="1" minHeight="0.0" rangeAngle="360.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.0">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.0" miniRate="0.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1108" name="사제 레만_안식의 축복_Sleep Ball_Cast 01" type="normal" category="" templateId="3000" nextSkill="0" parentId="52701000" timeRate="1.1" attackRange="250.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="True" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" totalAtk="0.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="True" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" animName="magicShot" animRate="1.0" blendInTime="300" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="1000" moveCancelStartTime="-1" rearCancelStartTime="-1" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="1" type="none" time="1500" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList />
+        <Cost hp="0" mp="0" />
+        <ProjectileSkillList>
+          <ProjectileSkill id="1109" detachAngle="0.0" detachDistance="30.000000" detachHeight="47.000000" flyingDistance="500.000000" flyingSpeed="332.0" shootAngle="0.0" />
+        </ProjectileSkillList>
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1109" name="사제 레만_안식의 축복 발사체_Sleep Ball_Projectile 01" type="projectile" category="9012" templateId="3000" nextSkill="0" parentId="52701000" timeRate="1.1" attackRange="200.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="pass" returnAnimName="" returnAnimSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" totalAtk="0.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="4004" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="-1" type="none" time="0" method="normal" endTime="0" startTime="0" interval="100" until="1000">
+        <AreaList>
+          <Area rotateAngle="0.0" type="allExceptMe" maxHeight="46.1538467" maxCount="20" maxRadius="100.46154" offsetDistance="0.0" pierceDepth="1" minHeight="-46.1538467" rangeAngle="360.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="1.0">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.0" miniRate="0.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="1310" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1110" name="사제 레만_징벌의 장막_Retrbutionwave_Cast 01" type="normal" category="" templateId="3000" nextSkill="0" parentId="52701000" timeRate="1.1" attackRange="200.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="True" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" totalAtk="0.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" animName="retributionwave" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="-1" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="1" type="none" time="400" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="45.0" maxCount="10" maxRadius="110.0" offsetDistance="-35.0" pierceDepth="1" minHeight="0.0" rangeAngle="100.0" crosshairRadius="1.0" minRadius="40.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.5">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.0" miniRate="0.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="2" type="none" time="550" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="45.0" maxCount="10" maxRadius="200.0" offsetDistance="-35.0" pierceDepth="1" minHeight="0.0" rangeAngle="100.0" crosshairRadius="1.0" minRadius="40.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.5">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.0" miniRate="0.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="2500" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="1111" name="사제 레만_신성 폭발_Holy Blast_Cast 01" type="normal" category="" templateId="3000" nextSkill="0" parentId="52701000" timeRate="1.1" attackRange="75.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="True" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" totalAtk="0.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="True" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Human_M_ANI.Anim.Human_M_Class07_Anim" animName="magicShot" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="-1" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="1" type="none" time="500" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="100.0" maxCount="20" maxRadius="30.0" offsetDistance="45.0" pierceDepth="1" minHeight="0.0" rangeAngle="360.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="1.0">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.0" miniRate="0.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+        <ProjectileSkillList />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="500" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="2101" name="사제 레만_징벌의 빛_Holy Shot_Cast 01" type="instance" category="9012" templateId="3000" nextSkill="0" parentId="52701000" timeRate="1.5" attackRange="250.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="True" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" totalAtk="0.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="2101" createTime="533.0" detachTime="533.0" flyingDuration="500.0" startSkill="2101" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" animName="magicShot" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="-1" type="none" time="533" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="33.3333321" maxCount="10" maxRadius="291.666656" offsetDistance="33.3333321" pierceDepth="1" minHeight="0.0" rangeAngle="5.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="1.0">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.0" miniRate="0.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="2103" name="사제 레만_재생의 바람_Wide Heal_Cast 01" type="normal" category="" templateId="3000" nextSkill="0" parentId="52701000" timeRate="1.5" attackRange="350.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="True" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" totalAtk="0.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <HitCylinderList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="True" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" animName="healStart" animRate="1.0" blendInTime="250" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="3000" animSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" animName="healLoop" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="True" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="0" animSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" animName="healShot1" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="2000" moveCancelStartTime="-1" rearCancelStartTime="-1" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="1" type="none" time="2620" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="ally" maxHeight="60.0" maxCount="5" maxRadius="200.0" offsetDistance="150.0" pierceDepth="1" minHeight="-10.0" rangeAngle="360.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.0">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.0" miniRate="0.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="2104" name="사제 레만_치유의 바람_Concentrate Heal_Cast 01" type="normal" category="" templateId="3000" nextSkill="0" parentId="52701000" timeRate="1.5" attackRange="142.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="True" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" totalAtk="0.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="True" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" animName="healStart" animRate="2.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+          <AnimSeq duration="0" animSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" animName="healShot1" animRate="1.0" blendInTime="0" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="600" moveCancelStartTime="-1" rearCancelStartTime="-1" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="1" type="none" time="1000" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="ally" maxHeight="60.0" maxCount="5" maxRadius="80.0" offsetDistance="62.0" pierceDepth="1" minHeight="-10.0" rangeAngle="360.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.0">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="250" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.0" miniRate="0.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="2105" name="사제 레만_보호의 축복_Defence Up Bless_Cast 01" type="normal" category="" templateId="3000" nextSkill="0" parentId="52701000" timeRate="1.5" attackRange="220.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="True" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" totalAtk="0.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="True" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" animName="AttackUp" animRate="1.0" blendInTime="300" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="500" moveCancelStartTime="-1" rearCancelStartTime="-1" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="1" type="none" time="1000" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="ally" maxHeight="45.0" maxCount="15" maxRadius="150.0" offsetDistance="70.0" pierceDepth="1" minHeight="0.0" rangeAngle="360.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.0">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.0" miniRate="0.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="2106" name="사제 레만_힘의 축복_Attack Up Bless_Cast 01" type="normal" category="" templateId="3000" nextSkill="0" parentId="52701000" timeRate="1.5" attackRange="220.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="True" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" totalAtk="0.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="True" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" animName="AttackUp" animRate="1.0" blendInTime="300" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="500" moveCancelStartTime="-1" rearCancelStartTime="-1" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="1" type="none" time="1000" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="ally" maxHeight="45.0" maxCount="15" maxRadius="150.0" offsetDistance="70.0" pierceDepth="1" minHeight="0.0" rangeAngle="360.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.0">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.0" miniRate="0.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="2107" name="사제 레만_각성_Recovery_Cast 01" type="normal" category="" templateId="3000" nextSkill="0" parentId="52701000" timeRate="1.5" attackRange="220.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="True" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" totalAtk="0.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="True" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" animName="purify" animRate="1.0" blendInTime="250" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="500" moveCancelStartTime="-1" rearCancelStartTime="-1" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="1" type="none" time="1000" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="ally" maxHeight="45.0" maxCount="15" maxRadius="150.0" offsetDistance="70.0" pierceDepth="1" minHeight="0.0" rangeAngle="360.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.0">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.0" miniRate="0.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="2108" name="사제 레만_안식의 축복_Sleep Ball_Cast 01" type="normal" category="" templateId="3000" nextSkill="0" parentId="52701000" timeRate="1.5" attackRange="250.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="True" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" totalAtk="0.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="True" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" animName="magicShot" animRate="1.0" blendInTime="300" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="1000" moveCancelStartTime="-1" rearCancelStartTime="-1" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="1" type="none" time="1500" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList />
+        <Cost hp="0" mp="0" />
+        <ProjectileSkillList>
+          <ProjectileSkill id="1109" detachAngle="0.0" detachDistance="30.000000" detachHeight="47.000000" flyingDistance="500.000000" flyingSpeed="332.0" shootAngle="0.0" />
+        </ProjectileSkillList>
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="2109" name="사제 레만_안식의 축복 발사체_Sleep Ball_Projectile 01" type="projectile" category="9012" templateId="3000" nextSkill="0" parentId="52701000" timeRate="1.5" attackRange="200.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="pass" returnAnimName="" returnAnimSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" totalAtk="0.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="4004" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="-1" type="none" time="0" method="normal" endTime="0" startTime="0" interval="100" until="1000">
+        <AreaList>
+          <Area rotateAngle="0.0" type="allExceptMe" maxHeight="46.1538467" maxCount="20" maxRadius="100.46154" offsetDistance="0.0" pierceDepth="1" minHeight="-46.1538467" rangeAngle="360.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="1.0">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.0" miniRate="0.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="1310" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="2110" name="사제 레만_징벌의 장막_Retrbutionwave_Cast 01" type="normal" category="" templateId="3000" nextSkill="0" parentId="52701000" timeRate="1.5" attackRange="200.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="True" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" totalAtk="0.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="False" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" animName="retributionwave" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="-1" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="1" type="none" time="400" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="45.0" maxCount="10" maxRadius="110.0" offsetDistance="-35.0" pierceDepth="1" minHeight="0.0" rangeAngle="100.0" crosshairRadius="1.0" minRadius="40.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.5">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.0" miniRate="0.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+      <Targeting id="2" type="none" time="550" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="45.0" maxCount="10" maxRadius="200.0" offsetDistance="-35.0" pierceDepth="1" minHeight="0.0" rangeAngle="100.0" crosshairRadius="1.0" minRadius="40.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="0.5">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.0" miniRate="0.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="2500" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="2111" name="사제 레만_신성 폭발_Holy Blast_Cast 01" type="normal" category="" templateId="3000" nextSkill="0" parentId="52701000" timeRate="1.5" attackRange="75.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="True" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="Baraka_M_ANI.Anim.Baraka_M_Class07_Anim" totalAtk="0.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="True" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Human_M_ANI.Anim.Human_M_Class07_Anim" animName="magicShot" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="-1" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="1" type="none" time="500" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="100.0" maxCount="20" maxRadius="30.0" offsetDistance="45.0" pierceDepth="1" minHeight="0.0" rangeAngle="360.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="1.0">
+              <AbnormalityOnCommon id="0" />
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.0" miniRate="0.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+        <ProjectileSkillList />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="500" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+      <ExclusiveAbnormality />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+  <Skill id="3000" name="사제 레만_폭탄 던지기" type="normal" category="" templateId="3000" nextSkill="0" parentId="52701000" timeRate="1.0" attackRange="250.000000" attackRangeMax="0.000000" autoUse="False" changeDirToCenter="False" needWeapon="True" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="0.000000">
+    <Property weaponStatus="out" defence="False" reactionPendingType="normal" skillPendingType="normal">
+      <Direction toCenterWhenNoMove="False" />
+    </Property>
+    <Bullet shotSkill="0" createTime="0.0" detachTime="0.0" flyingDuration="1000.0" startSkill="-1" />
+    <Action>
+      <SpecialEffectList />
+      <MoveInvincible endTime="0" startTime="0" />
+      <Pending startTime="-1" />
+      <StageList>
+        <Stage scriptId="0" changeDirToTarget="True" changeDirToTargetMax="0" movable="False">
+          <Property animControlType="normal" adjustAnimToTarget="False" />
+          <AnimSeq duration="0" animSet="Baraka_M_ANI.Anim.Baraka_M_Share_Anim" animName="Throw_Q" animRate="1.0" blendInTime="200" animMotionId="0" bAnimLooping="False" loopingRate="1.0" rootMotionXYRate="1.0" rootMotionZRate="1.0" movingAnimName="" waitAnimName="" />
+        </Stage>
+      </StageList>
+      <CameraShakeList />
+      <CameraType duration="2000.0" type="none" startTime="0.0" weight="2.0" startStageId="0" />
+      <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+    </Action>
+    <TargetingList adjustTargetingPos="notUse">
+      <Targeting id="-1" type="none" time="675" method="normal" endTime="0" startTime="0" interval="0" until="0">
+        <AreaList>
+          <Area rotateAngle="0.0" type="enemy" maxHeight="60.0" maxCount="10" maxRadius="50.0" offsetDistance="200.0" pierceDepth="1" minHeight="0.0" rangeAngle="360.0" crosshairRadius="1.0" minRadius="0.0" offsetAngle="0.0" crosshairRadius2="3.0">
+            <Effect atk="1.0">
+              <HpDiff value="0" />
+              <MpDiff value="0" />
+            </Effect>
+            <Reaction basicRate="0.0" miniRate="0.0" />
+            <HitEffect type="animationDamage" />
+          </Area>
+        </AreaList>
+        <Cost hp="0" mp="0" />
+      </Targeting>
+    </TargetingList>
+    <Defence rootMotion="False" successAnimName="" />
+    <Drain backSkillId="0" />
+    <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+      <Cost hp="0" mp="0" />
+    </Precondition>
+    <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" />
+  </Skill>
+</SkillData>
